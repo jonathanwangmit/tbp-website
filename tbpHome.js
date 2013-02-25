@@ -1,5 +1,14 @@
 $(function(){
-
+  var pathname = window.location.pathname.substr(9);
+  pathname = pathname.substr(0, pathname.length - 6);
+  $('li').removeClass('menu-link-sel');
+  $('#' + pathname).addClass('menu-link-sel');
+  if ($('#' + pathname).hasClass('information')) {
+    $('#information').addClass('menu-link-sel');
+  }
+  if (pathname == 'information') {
+    $('#about').addClass('menu-link-sel');
+  }
 	var autoAnimateInterval = 10000, intervalId;
 
 	$('.hero-nav a').click(function() {
