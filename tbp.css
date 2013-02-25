@@ -8,15 +8,22 @@ body, td, th, .bod, font, p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 8, ../../../app/stylesheets/_globals.sass */
+/*
 body, html {
   margin: 0;
   padding: 0;
   border: 0;
 }
+*/
+html {
+  position: relative;
+    min-height: 100%;
+}
 
 /* line 13, ../../../app/stylesheets/_globals.sass */
 body {
   background-color: #f0f0f0;/*#0C0C0C;*/
+  margin: 0 0 65px;
 }
 
 /* line 16, ../../../app/stylesheets/_globals.sass */
@@ -82,7 +89,7 @@ sup {
 /* line 54, ../../../app/stylesheets/_globals.sass */
 .cf {
   margin: 0;
-  padding: 95px 0 0 0;
+  padding: 0;
   font-size: 1px;
   line-height: 0px;
   clear: both;
@@ -351,9 +358,11 @@ a.btn-search-go:hover {
 /* GLOBAL: FOOTER */
 /* Keep footer on the bottom of the page */
 /* line 252, ../../../app/stylesheets/_globals.sass */
+/*
 html, body {
   height: 100%;
 }
+*/
 
 /* line 255, ../../../app/stylesheets/_globals.sass */
 body > div#root {
@@ -371,22 +380,27 @@ body > div#root {
   background: #0d0d0d url("./images/backgrounds/bg-footer.jpg") no-repeat top center;
   width: 100%;
   height: 65px;
-  padding-top: 16px;
+  /* padding-top: 16px; */
+  position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* line 268, ../../../app/stylesheets/_globals.sass */
+
 #footer-in {
   width: 961px;
   margin: 0 auto;
   padding-left: 1px;
 }
 
+
 /* line 273, ../../../app/stylesheets/_globals.sass */
 .footer-links {
   float: left;
   font-size: 12px;
   color: #828282;
-  margin-top: -95px;
+  margin-top: 20px;
 }
 /* line 277, ../../../app/stylesheets/_globals.sass */
 .footer-links li {
