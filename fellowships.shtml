@@ -1,76 +1,9 @@
 <!--#include file="layout.htm"-->
 <!--#include file="header.htm"-->
-        
-        <div id="content-shade">&nbsp;</div> 
-        
-        <div id="content"> 
-
-        <div class="col-main"> 
- 
-    <div class="page-hd"> 
+<!--#include file="fellowship-menu.htm"-->
 <h1>TBP Service and Engineering Fellowships</h1><br>
 <p>TBP's Fellowship Program is for MIT undergraduates seeking to pursue a service engineering project during this coming summer. The purpose of this program is to support students who seek to apply their engineering and technological understanding to better society, both domestic and abroad. Successful fellows should be prepared to guide a student-led project that can leave behind lasting, sustainable benefits for a community. The work may be arranged with non-governmental or inter-governmental organizations and other community-conscious groups. Students of all disciplines are welcomed to apply. This year, we are seeking to award up to 5 fellows with US$2000 to US$5000 each.</p>
 <br />
-<h3>To apply, please fill out the <a href="FellowshipApplication/TBP%20Fellowship%20App%20Winter%202013.pdf">TBP Winter 2013 Fellowship Application</a>!</h3>
-
-<br><br>
-<h2>Past Winners</h2>
-
-<blockquote><h2>2010 IAP Winners:</h2><br><h3>
-Anshul Bhagi - Android Phone Programming in Africa
-
-<br><br>
-Sivakami Sambasivam - Construction of greenhouse and biodigester in La Vaquita, Mexico
-
-</h3></blockquote>
-
-
-<blockquote><h2>2010 Summer Winners:</h2><br><h3>
-
-Maddie Hickman - development of a kit to add power-assist to wheelchairs in Keyna
-
-<br><br>
-
-Connie Lu - research cyanobacteria growth in Lake Atitlan in Guatemala, and attempt to develop technology to minimize lake pollution
-
-<br><br>
-Christie Lin - developing of low-cost carbon monoxide detector with students at a university in Turkey
-
-<br><br>
-Amy Qian - developing HeatSource, a line of clothing embedded with smart materials to provide long-lasting warmth at an affordable price, and testing it in China
-
-<br><br>
-Adam Bockelie and Danielle Whited - design of efficient and clean pine needle stove for cooking and heating in Northern India
-
-<br><br>
-Raqeebul Ketan - development of iSchool, an interactive video lecture series for teaching physics to Bangladesh
-
-</h3></blockquote>
-
-<blockquote><h2>2009 Winners:</h2><br><h3>
-
-Sean Liu, for the project titled <a href="FellowshipPosters/Seanliu.pdf"><i>Extending Wireless Internet Access to Developing Communities in China.</i></a> [Fuzhou, China]
-<br><br>
-Kevin Farino, for the project titled <a href="FellowshipPosters/Kevin.ppt"><i>Adapting the Shape and Roll Prosthetic Foot for the Developing World.</i></a> [New Delhi, India]
-<br><br>
-Peter Lu, for the project titled <a href="FellowshipPosters/Peter.pdf"><i>Design, Construction and Installation of  Solar Thermal Power System for Rural Electrification in Lesotho.</i></a> [Lesotho, Africa]
-<br><br>
-Renaldo Webb, for the project titled <a href="FellowshipPosters/Renaldo.ppt"><i>Bringing Energy to Off-Grid Communities.</i></a> [Fairview, Guyana]
-<br><br>
-Scot Frank, for the project titled <a href="FellowshipPosters/Scot.pdf"><i>Global Citizen Water Initiative Empowering Communities Worldwide to Access Healthy Drinking Water</i></a>
-</h3></blockquote>
-
-<blockquote><h2>2008 Winners:</h2><br><h3>
-Karina N. Pikhart ('09 Mechnical Engineering), for thet project titled  "A New Knee to Walk On; A New Life to Live." [Delhi, India]<br>
-<br>
-Vidya Gnapati ('10 Electrical Engineering and Computer Science), for  the project titled "Engineering a Soymilk Maker for an Orphanage in  Peru." [Lima, Peru]<br>
-<br>
-Orian Z. Welling ('08 Mechnical Engineering), for the project titled  "SolarPump Indonesia." [Watu, Magilewa, and Jere, Indonesia]<br>
-<br>
-Justin Cannon ('08 Electrical Engineering and Computer Science), for  the project titled "The Beehive School Project." [Mzuzu, Malawi]<br>
-<br>
-Alec Resnick ('08 Mathematics), for the project titled "Design and  Construction of a Low-Cost, Education NMR Kit." [Boston, U.S.A.] 
-</h3></blockquote>
 
 </div></div>
 

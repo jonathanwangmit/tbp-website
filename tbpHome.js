@@ -1,13 +1,18 @@
 $(function(){
+  // Temporary hack
   var pathname = window.location.pathname.substr(9);
   pathname = pathname.substr(0, pathname.length - 6);
   $('li').removeClass('menu-link-sel');
   $('#' + pathname).addClass('menu-link-sel');
   if ($('#' + pathname).hasClass('information')) {
     $('#information').addClass('menu-link-sel');
+  } else if ($('#' + pathname).hasClass('fellowships')) {
+    $('#fellowships').addClass('menu-link-sel');
   }
   if (pathname == 'information') {
     $('#about').addClass('menu-link-sel');
+  } else if (pathname == 'fellowships') {
+    $('#engineering-fellowships').addClass('menu-link-sel');
   }
 	var autoAnimateInterval = 10000, intervalId;
 

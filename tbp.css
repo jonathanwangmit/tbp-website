@@ -82,7 +82,7 @@ sup {
 /* line 54, ../../../app/stylesheets/_globals.sass */
 .cf {
   margin: 0;
-  padding: 0;
+  padding: 95px 0 0 0;
   font-size: 1px;
   line-height: 0px;
   clear: both;
@@ -386,6 +386,7 @@ body > div#root {
   float: left;
   font-size: 12px;
   color: #828282;
+  margin-top: -95px;
 }
 /* line 277, ../../../app/stylesheets/_globals.sass */
 .footer-links li {
