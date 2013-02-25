@@ -1,0 +1,99 @@
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                     <li class="menu-link-sel"><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul>                                                                                                           
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+
+
+
+
+ <div class="home-hero"> 
+ 
+    <div class="hero-cnt"> 
+      <div class="hero-slider"> 
+        <div class="hero-item"> 
+           <div class="hero-item-txt"> 
+            <h1>MIT Tau Beta Pi</h1> 
+            <h2> 
+             TBP honors those with exemplary character and distinguished scholarship as engineering students and alumni. <br><br>
+			
+			TBP hosts the annual MIT TBP Spring Career Fair.  
+			If you are interested in participating in the 2013 Career Fair, please let us 
+			know by filling out <a href="https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dGU5aW9BRElLanJpZ0tpQWRRbjVrYmc6MQ#gid=0">this form</a>.
+                      </h2> 
+           
+           </div>
+           
+            <div class="hero-item-scr"> 
+        	  <a class="scr-over pngbg"> 
+                <div class="scr-over pngbg"></div> 
+                <img src="./images/homepage/3.jpg" width="506" border="0" alt="" /> 
+              </a>
+            </div> 
+            
+            
+            
+          
+            
+        </div>
+        
+        
+        
+        <div class="hero-item"> 
+        
+        	 <div class="hero-item-scr"> 
+        	  <a class="scr-over pngbg"> 
+                <div class="scr-over-left pngbg"></div> 
+                <img src="./images/homepage/SolLeWitt.jpg" width="506" border="0" alt="" /> 
+              </a>
+            </div> 
+            
+            <div class="hero-item-txt"> 
+            <h1>Announcements</h1>
+            <h2>
+            <b>10/26/2010</b><br/>
+            Eligibles Orientation Information Session 1 (7pm, 4-270)<br/><br/>
+			
+            <b>10/27/2010</b><br/>
+            Eligibles Orientation Information Session 2 (7pm, 4-270)<br/><br/>
+			
+            <b>NEW:</b> Check out our <a href="calendar.shtml"> calendar</a>!
+	
+            </h2>
+            </div>
+            
+        </div>
+     </div>
+   </div>
+    <div class="hero-bot"> 
+      <div class="hero-nav"> 
+        <a href="#" id="hero-sel-1" class="hero-sel"></a> 
+        <a href="#" id="hero-sel-2"></a> 
+      </div> 
+    </div> 
+   
+ </div>
+ 
+
+
+				<!--#include file="bottom.htm"-->

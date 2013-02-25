@@ -1,0 +1,186 @@
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                <li class=""><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class="menu-link-sel"><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul> pag
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+  <div id="menu-sub"> 
+    <div id="menu-sub-in"> 
+<ul> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="career.shtml">Main</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="sponsorship.shtml">List of Companies</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+              <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="infosessions.shtml">Company Info Session Schedule</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="https://tbp.scripts.mit.edu:444/registration/">Student Registration</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+            <li class="menu-sub-sel"> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="careercontact.shtml">Contact</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+ 
+
+</div></div>
+<div id="menu-sub">
+<div id="menu-sub-in">
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="regclosed.shtml">Company Registration</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="price.shtml">Company Pricing</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="logistics.shtml">Schedule and Logistics</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+
+ 
+        </ul> 
+    </div> 
+</div> 
+        
+        <div id="content-shade">&nbsp;</div> 
+        
+        <div id="content"> 
+
+        <div class="col-main"> 
+ 
+    <div class="page-hd"> 
+        
+        
+<img id="noborder" src="images/tbp-career-logo.png" width="100%" alt="Spring 2012 MIT Career Fair">
+
+
+The MIT Chapter of Tau Beta Pi holds an annual career fair on the first day of the Spring Semester. The fair is open to all MIT students. Last year, over 1000 students and 70 companies attended. The fair is a two-part event, starting with the main career fair followed by a networking reception. We hope to see you there!
+<br><br>
+If you are interested in participating in the 2013 Career Fair, please let us 
+know by filling out <a href="https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dGU5aW9BRElLanJpZ0tpQWRRbjVrYmc6MQ#gid=0">this form</a>.
+
+
+<h2>Career Fair</h2>
+<img src="images/mit77.png" width="100%"><br><br>
+
+<blockquote><h3>
+First Day of Classes - Tuesday February 7th, 2012<br>
+9AM - 3PM, W33 Rockwell Cage
+</h3></blockquote>
+
+The main career fair event will be held in <a href="http://whereis.mit.edu/?go=W33">Rockwell Cage</a> and is open to both MIT undergraduates and graduate students. Want to know which companies will be there? Check out the <b><a href="sponsorship.shtml">2012 Career Fair Company List</a>!</b> The fair attracts a diverse group of companies involved in everything from telecommunications and bioengineering to consulting and finance.
+
+<br/><br/>
+Browse the 2012 informational booklet <a href="TBPCareerFairBooklet2012.pdf">here</a>! <br/>
+<br/>
+Check out the company map only <a href="tbpmap2012.pdf">here</a>!<br/>
+
+<h2>Networking Reception</h2>
+<img src="images/hyatt-reception.png" width="100%"><br><br> 
+<blockquote><h3>
+Networking Reception at the Hyatt Regency Cambridge, 5-7PM
+</h3></blockquote>
+ Due to popular demand, we are holding a networking reception event from 5PM to 7PM right after the main career fair at the Hyatt Regency. This event is a great opportunity for students to speak with company representatives in a more casual setting. The networking banquet will be held at the <a href="http://cambridge.hyatt.com">Hyatt Regency Cambridge Hotel</a>, within walking distance of the main Career Fair.
+
+<h2> Registering for the Fair </h2>
+If you are a student interested in attending, please click on the student registration link below to submit your resume and your information. If you are a company interested in attending, please click on the company registration link below.
+
+<br><br>
+<ul style="list-style-type: square">
+<li> Jump to <a href="https://tbp.scripts.mit.edu:444/registration/index.php">Student Registration</a>.
+<li> Jump to <a href="https://docs.google.com/spreadsheet/viewform?formkey=dENsQ2pqLTduOVhuN0NaS05rb0hudUE6MQ">Company Registration</a>
+<li> <a href="price.shtml">Pricing and payment options</a> for companies</a>
+<li><a href="logistics.shtml">Logistics</a> for companies attending the fair</a>
+<li><a href="careercontact.shtml">Contact</a> the career fair organizers.
+</ul>
+
+<br>
+
+
+
+<h2> Company Information Sessions</h2>
+Many attending companies will also be holding separate informational sessions throughout the week of and after the career fair. We have compiled a schedule of them available <a href="infosessions.shtml">here</a>.
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="col-side"> 
+     
+     <div class="side-quote"> 
+       <h2>When?</h2> 
+<p>
+<b>First Day of Classes</b>
+<br> Tuesday February 7th, 2012
+<br><br>
+<b>Career Fair:</b>
+<br> 9AM-3PM at <a href="http://whereis.mit.edu/?go=W33">Rockwell Cage, MIT</a>.
+<br><br><b>Networking Reception:</b> 
+<br>5-7PM at the <a href="http://cambridge.hyatt.com">Hyatt Regency Cambridge</a>.
+</p></div> 
+    
+    <div class="side-quote"> 
+       <h2>Where?</h2>
+<p> 
+Rockwell Cage. Click on the image to see a larger map.
+Check <a href="http://whereis.mit.edu/directions.html">here</a> for directions to MIT.
+<a href="http://whereis.mit.edu/?go=W33"><img src="images/rockwellmap.png" width="250px"></a>
+   </p> </div> 
+    
+   
+  
+  <div class="side-quote"> 
+       <h2>Who?</h2><p> Open to all MIT Students! Want to know which companies came to the career fair last year? Check out the <a href="sponsorship.shtml">2011 Career Fair Company List</a>!
+</p>
+
+    </div> 
+
+    
+ 
+ </div>
+ 
+  <div class="cf"></div> 
+ 
+    
+</div> 
+<!--#include file="bottom.htm"-->

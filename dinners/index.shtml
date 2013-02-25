@@ -1,0 +1,19 @@
+<!--#include file="top.htm"-->
+
+<div class="centered">
+<!--webbot bot="ImageMap" startspan
+rectangle=" (307,309) (483, 330)  contacts.shtml"
+rectangle=" (307,274) (486, 297)  schedule.shtml"
+rectangle=" (305,238) (489, 259)  information.shtml"
+src="images/logo.jpg" border="0" width="504" height="397" -->
+<MAP NAME="FrontPageMap0">
+  <AREA SHAPE="RECT" COORDS="307, 309, 483, 330" HREF="contacts.shtml">
+  <AREA SHAPE="RECT" COORDS="307, 274, 486, 297" HREF="schedule.shtml">
+  <AREA SHAPE="RECT" COORDS="305, 238, 489, 259" HREF="information.shtml">
+</MAP>
+<img src="images/logo.jpg" border="0" width="504" height="397" usemap="#FrontPageMap0">
+
+<!--webbot bot="ImageMap" i-checksum="36596" endspan -->
+</div>
+
+<!--#include file="bottom.htm"-->

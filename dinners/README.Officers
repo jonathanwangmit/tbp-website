@@ -1,0 +1,10 @@
+
+Leonardo Dinner Web Pages
+
+When changing the schedule, first, move the old schedule into
+schedules-previous/ if you are starting a new term.
+
+The dinner options need to be changed in resmembers.html and resfaculty.html
+each time you add a new dinner.
+The dinner options are in the <option> tags of the <select> menus for each
+preference level.

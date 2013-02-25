@@ -1,0 +1,125 @@
+
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                <li class=""><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class="menu-link-sel"><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul> pag
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+  <div id="menu-sub"> 
+    <div id="menu-sub-in"> 
+        <ul> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="eligibility.shtml">Requirements</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            
+            <li class="menu-sub-sel"> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="">Committees</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+ 
+ 
+        </ul> 
+    </div> 
+</div> 
+        
+        <div id="content-shade">&nbsp;</div> 
+        
+        <div id="content"> 
+
+        <div class="col-main"> 
+ 
+    <div class="page-hd"> 
+ <h1>TBP Committees - Fall 2010 </h1>
+
+<h3>
+TBP eligibles may join the following committees. For more information, feel free to contact the chair(s) of each committee.
+
+<blockquote>
+
+		<li><b>Career Fair Committee (many open spots!)</b> - Every year at the beginning of Spring semester, TBP hosts are large career fair open to all MIT students. This is
+		one of our chapter's biggest and most important events. There are a number of possible ways that you can contribute, including helping to contact companies,
+		taking care of logistics details, and volunteering to help out at the actual Fair. This is by far the largest committee, and many eligibles satisfy their service
+		requirement by helping out with our Career Fair. Committee Chair: <a href="mailto:gvl">Grace Liao</a></li><br />
+
+		<li><b>Social Committee (3-5)</b> - Help organize and run TBP social events. If you're a social butterfly and/or you're good at organizing fun events with friends, this
+		may be the committee for you. Committee Chairs: <a href="mailto:fatimah">Fatima Hussain</a> and <a href="mailto:djwang">Danielle Wang</a></li><br />
+
+		<li><b>SciPro Committee (2-3)</b> - SciPro is TBP's middle school mentoring program. Every Saturday afternoon, students from local Boston area middle schools come to campus,
+		watch fun science demonstrations, and meet with their MIT student mentor to work on a cool science project. Eligible responsibilities may include organizing and doing cool science demonstrations for the students, logistics, and helping to advertise SciPro to students for next term. Committee Chairs: <a href="mailto:scipro-staff">Andrew Wang and Khalea Robinson</a></li><br />
+
+		<li><b>Website Committee (2-3)</b> - The TBP website hasn't been redesigned in a while. If you're good with HTML, PHP, and any web 2.0 tools and would like to improve 
+		the look and feel of this website, you should consider joining the web committee. Committee Chair: <a href="mailto:whaley">Kristen Whaley</a></li><br />
+
+		<li><b>Publicity Committee (2-4)</b> - Help publicize TBP events and activities. Typical eligible responsibilities may include designing posters and slides for the Infinite Display,
+		writing articles or putting TBP advertisements in the Tech, and postering campus. Committee Chair: <a href="mailto:scsong">Susan Song</a></li><br />
+
+		<li><b>Leonardo Da Vinci Dinners Committee (5-10)</b> - At Leonardo Da Vinci Dinners, MIT students and TBP members will have dinner with a professor and learn about 
+		his/her personal interests outside of his/her normal research. Just as Da Vinci had a number of fascinating interests and hobbies, so do a number of MIT professors. 
+		Leonardo Da Vinci Dinners will be a chance to have a great time meeting professors outside of their usual contexts. We're restarting this program fresh, so you could have
+		a lot of influence over its future! Responsibilities may include organization, contacting professors, and advertising. Committee Chair: <a href="mailto:scsong">Susan Song</a></li><br />
+
+		<li><b>Historian Committee (2-4)</b> - The Historian Committee is responsible for documenting TBP activities and events. Every year, each TBP chapter assembles a
+		professional looking Chapter Report for nationals documenting everything the chapter does. The Historian Committee help write and generate content for this report. Typical tasks include going to
+		various TBP events and projects, taking lots of pictures of them, and writing brief descriptions. Some of these pictures and descriptions may also end up on our website. This is also
+		a great way to get a broad overview of the different projects that our chatper does. Committe Chair: <a href="mailto:kyoung">Kellie Young</a></li><br />
+
+		<li><b>TBP Teach Committee (5-7)</b> - do you like to teach? Every IAP, TBP teaches a number of for-credit courses for the MIT community. Past classes have included such topics as
+		<i>Review of Probabilistic Systems</i>, <i>Review of Signals and Systems</i>, <i>Review of Circuit Analysis</i>, and <i>Introduction to Matlab</i>. If you'd like to teach
+		one of these courses, or are interested in helping with organization, this committee would be great for you. Leadership opportunities available! Committee Chair: TBA</li><br />
+
+		<li><b>Picking A Major Guide Committee (5-7)</b> - This is a brand new program that TBP will be starting this year. Do you remember freshman year when you were trying to figure out 
+		your major? Do you remember wondering what the differences were between 5 and 10, 7 and 20, and 2,6, and 16? The "How to Pick A Major" Guide will help freshmen to pick the major 
+		that's best for them. It will include such features as sketches of current students, advice from upperclassmen, topics covered in the major, cool professors, what to do after graduation, and more. 
+		Paper and digital copies of the guide will be distributed to freshmen. Leadershape opportunities available! Committee Chair: TBA </li><br />
+
+</blockquote>
+	
+</div></div>
+
+ 
+  <div class="cf"></div> 
+ 
+    
+</div> 
+<!--#include file="bottom.htm"-->
+
+
+
+
+
+
+
+<!--#include file="layout.htm"-->
+<table width="650" border="0" cellpadding="0 " cellspacing="0">
+  <tr>
+    <td class="nonbar"><h3 align="center" style="color: #000000"></h3>
+      <p></p>
+	<ul>
+		
+	</ul>
+ 
+  </tr>
+</table>
+<!--#include file="bottom.htm"-->

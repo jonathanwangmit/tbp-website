@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Tau Beta Pi, Massachusetts Beta</title>
+  <link href="/tbp/www/tbp.css" rel="stylesheet" type="text/css">
+  <script src="/tbp/www/jquerymin.js" type="text/javascript"></script>
+  <style type="text/css">
+.page-hd ul {
+   list-style: square;
+   margin: 0;
+}
+.page-hd li {
+   padding: 5px;
+   font-size: 15pt;	
+}
+  </style>
+</head>
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script>
+<div id="menu">
+<div id="menu-in">
+<ul class="menu-links">
+  <li class=""><span id="home" class="menu-l pngbg"></span><span
+ class="menu-m pngbg"><a href="./index.shtml">HOME</a></span></li>
+  <li class=""><span class="menu-m pngbg"><br>
+    </span></li>
+  <li class=""><span id="information" class="menu-l pngbg"></span><span
+ class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span
+ class="menu-r pngbg"></span></li>
+  <li class=""><span id="programs" class="menu-l pngbg"></span><span
+ class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span
+ class="menu-r pngbg"></span></li>
+  <li class=""><span id="eligibility" class="menu-l pngbg"></span><span
+ class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span
+ class="menu-r pngbg"></span></li>
+  <li class="menu-link-sel"><span id="career" class="menu-l pngbg"></span><span
+ class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span
+ class="menu-r pngbg"></span></li>
+  <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span
+ class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span
+ class="menu-r pngbg"></span></li>
+</ul>
+<a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a>
+</div>
+</div>
+<div id="menu-sub">
+<div id="menu-sub-in">
+<ul>
+  <li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a href="career.shtml">Main</a></span> <span
+ class="menu-r pngbg"></span> </li>
+  <li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a href="sponsorship.shtml">List of Companies</a></span>
+    <span class="menu-r pngbg"></span> </li>
+  <li class="menu-sub-sel"> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a href="infosessions.shtml">Company Info Session
+Schedule</a></span> <span class="menu-r pngbg"></span> </li>
+  <li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a
+ href="https://tbp.scripts.mit.edu:444/registration/">Student
+Registration</a></span> <span class="menu-r pngbg"></span> </li>
+  <li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a href="careercontact.shtml">Contact</a></span> <span
+ class="menu-r pngbg"></span> </li>
+</ul>
+</div>
+</div>
+<div id="menu-sub">
+<div id="menu-sub-in">
+<li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a
+ href="https://docs.google.com/spreadsheet/viewform?formkey=dENsQ2pqLTduOVhuN0NaS05rb0hudUE6MQ">Company
+Registration</a></span> <span class="menu-r pngbg"></span> </li>
+<li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a href="price.shtml">Company Pricing</a></span> <span
+ class="menu-r pngbg"></span> </li>
+<li class=""> <span class="menu-l pngbg"></span> <span
+ class="menu-m pngbg"><a href="logistics.shtml">Schedule and Logistics</a></span>
+  <span class="menu-r pngbg"></span> </li>
+</div>
+</div>
+<div id="content-shade">&nbsp;</div>
+<div id="content">
+<div class="col-main">
+<div class="page-hd">
+<h1>Information Session Schedule</h1>
+Mark your calendars! Learn more about companies and meet company
+representatives!
+<h2>January 31, 2011</h2>
+<ul>
+  <li>Air Liquide 7-8pm, 1-150
+  </li>
+  <li>Barclays Capital 6-7 pm, 1-246
+  </li>
+  <li>Central Intelligence Agency 5-6 pm, 1-273
+  </li>
+  <li>Ebay 5-6 pm, 1-150
+  </li>
+  <li>Intel 6-7 pm, 1-135
+  </li>
+  <li>National Security Agency 4-5pm, 1-135
+  </li>
+  <li>Pacific Northwest National Laboratory 4-5 pm, 1-246
+  </li>
+  <li>SpaceX 5-6pm, 4-145
+  </li>
+</ul>
+<h2>February 2, 2011</h2>
+<ul>
+  <li>Amazon 6-7 pm, 2-132
+  </li>
+  <li>Boston Scientific 6-7 pm, 1-246
+  </li>
+  <li>Cypress Semiconductor 5-6 pm, 2-142
+  </li>
+  <li>Gelber Group 6-7 pm, 2-131
+  </li>
+  <li>Hulu 7:30-9:30 pm, 2-105
+  </li>
+  <li>Mathworks 5-6 pm, 2-136
+  </li>
+  <li>Morgan Stanley 5:30-7 pm, 32-141
+  </li>
+  <li>Mozilla 11:30 to 1:30 pm, 2-132
+  </li>
+  <li>VSee 5-6pm, 2-135
+  </li>
+  <li>Dropbox 7-8pm, 4-149
+  </li>
+</ul>
+<h2>February 3, 2011</h2>
+<ul>
+  <li>Oracle 6-7:30pm, 4-237
+  </li>
+</ul>
+<h2>February 9, 2011</h2>
+<ul>
+  <li>Capital One 7pm, 4-149
+  </li>
+</ul>
+<h2>February 15, 2011</h2>
+<ul>
+  <li>Facebook 6-7:30 pm, 1-190
+  </li>
+  <li>MediaTek 5-6 pm, 1-135
+  </li>
+</ul>
+<h2>February 16, 2011</h2>
+<ul>
+  <li>Bloomberg 6:30-7:30 pm, 2-136
+  </li>
+  <li>ERS 5-6pm, 1-246
+  </li>
+</ul>
+</div>
+</div>
+<div class="cf"></div>
+</div>
+<div id="footer">
+<div id="footer-in">
+<div class="footer-links">
+<div class="cf"></div>
+Copyright © 2010 MIT Mass Beta </div>
+</div>
+</div>
+</body>
+</html>

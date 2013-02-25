@@ -1,0 +1,131 @@
+
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                <li class=""><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class="menu-link-sel"><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul> pag
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+  <div id="menu-sub"> 
+    <div id="menu-sub-in"> 
+        <ul> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="programs.shtml">Overview</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="scipro.shtml">Sci Pro</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="fellowships.shtml">Fellowships</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+ 
+ 
+        </ul> 
+    </div> 
+</div> 
+        
+        <div id="content-shade">&nbsp;</div> 
+        
+        <div id="content"> 
+
+        <div class="col-main"> 
+ 
+    <div class="page-hd"> 
+ <h1>TBP Teach </h1><br>
+<br>
+<h3>TBP-Teach is a program during IAP run by students, for students. In the past, we've taught courses such as Intro to Programming using Java, Intro to Circuits, Linear Algebra, and Review of Signals and Systems.</p>
+</h3>
+ <br>
+ 
+<h2>Courses offered IAP 2010:</h2><h3><br>
+<b>Review of Probabilistic Systems Analysis (6.912)</b><br><blockquote>
+Instructors: Wanmei Ou, Pavitra Krishnaswamy<br>
+<i>Thu Jan 15, Tue Jan 20, Thu Jan 22, Tue Jan 27, Thu Jan 29, 02:30-04:00pm, 36-153</i><br>
+<br>A review of Probabilistic Systems Analysis (6.041/6.431) in preparation for 6.011  and the EECS TQE. This course will review key concepts of probability theory.  Two required problem sets, no final exam.<br>
+<br>Contact: Wanmei Ou, <a href="javascript:open_compose_win('to=wanmei%40mit.edu&thismailbox=INBOX');" onmouseover="window.status='Compose Message (wanmei@mit.edu)'; return true;" onmouseout="window.status='';">wanmei@mit.edu</a><br>
+<br>  </blockquote>  
+<b>Review of Signals and Systems (6.097)</b><br><blockquote>
+        Instructors: Shirin Farrahi, Vincent Tan, Yi-Chieh Wu<br>
+        <i>Mon, Wed, Fri, Jan 12, 14, 16, 21, 23, 26, 28, 30, 05-06:30pm, 56-154</i><br>
+        <br>
+        Prereq: 18.02<br>
+
+        Preparation for 6.003, 6.011, or the course 6 TQE focusing on several key  concepts including LTI systems, convolution, CT and DT Fourier series &amp;  transforms, filtering, sampling, modulation, Laplace &amp; z-transforms, and  feedback. Three problem sets spread over three weeks. Ungraded practice exam on  final day.<br>
+
+        Listeners welcome!<br><br>
+        Please email <a href="javascript:open_compose_win('to=tbp-linear-systems%40mit.edu&thismailbox=INBOX');" onmouseover="window.status='Compose Message (tbp-linear-systems@mit.edu)'; return true;" onmouseout="window.status='';">tbp-linear-systems@mit.edu</a> if questions.<br>
+
+        Web: <a href="https://webmail.mit.edu/horde/services/go.php?url=http%3A%2F%2Fweb.mit.edu%2Fvtan%2Fwww%2F6.097%2F" target="_blank">http://web.mit.edu/vtan/www/6.097/</a><br>
+        Contact: Shirin Farrahi, <a href="javascript:open_compose_win('to=tbp-linear-systems%40mit.edu&thismailbox=INBOX');" onmouseover="window.status='Compose Message (tbp-linear-systems@mit.edu)'; return true;" onmouseout="window.status='';">tbp-linear-systems@mit.edu</a><br>
+  <br></blockquote>
+
+<br>
+  <b>Review of Circuit Analysis (6.098)</b><br><blockquote>
+        Instructor: Philip Godoy<br>
+        <i>Mon, Wed, Fri, Jan 5, 7, 9, 12, 14, 16, 21, 23, 01-03:00pm, 36-112</i><br><br>
+   
+        Prereq: 6.002 or equivalent<br>
+
+        Review of 6.002, Circuits &amp; Electronics, teaching basic circuit theory and  principles of electrical engineering. It is primarily intended for students who  want to review the course material, particularly first-year Course 6 graduate students  studying for the TQE. Fundamentals of the lumped circuit abstraction. Resistive  elements and networks; independent and dependent sources; switches and MOS  devices; digital abstraction; amplifiers; and energy storage elements. Dynamics  of first- and second-order networks; design in the time and frequency domains;  analog and digital circuits and applications.<br>
+    
+        Four required homework assignments.<br><br>
+        Web: <a href="https://webmail.mit.edu/horde/services/go.php?url=http%3A%2F%2Fwww.mit.edu%2F%7Egodoy%2Ftbpcircuits.html" target="_blank">http://www.mit.edu/~godoy/tbpcircuits.html</a><br>
+        Contact: Philip Godoy, <a href="javascript:open_compose_win('to=tbp-circuits%40mit.edu&thismailbox=INBOX');" onmouseover="window.status='Compose Message (tbp-circuits@mit.edu)'; return true;" onmouseout="window.status='';">tbp-circuits@mit.edu</a><br>
+              <br>
+           <br>
+           </blockquote>
+        <b>Introduction to MATLAB (6.094)</b><br><blockquote>
+        Instructors: Danilo Scepanovic, Patrick Ho<br>
+        <i>Mon Jan 12 thru Fri Jan 16, 07-08:30pm, 54-100</i><br>
+              <br>
+        Prereq: familiarity with programming; 18.03; linear algebra<br>
+              <br>
+        An aggressively gentle introduction to MATLAB, to give students fluency,  including popular toolboxes. Interactive lectures with computers running MATLAB  for each student. Problem-based MATLAB assignments. To pass, a student must  complete all assignments. Students are encouraged to bring their own laptops with  MATLAB installed; for those without, laptops will be provided.<br>
+              <br>
+        Web: <a href="https://webmail.mit.edu/horde/services/go.php?url=http%3A%2F%2Fweb.mit.edu%2F6.094%2Fwww" target="_blank">http://web.mit.edu/6.094/www</a><br>
+        Contact: Danilo Scepanovic, <a href="javascript:open_compose_win('to=danilos%40mit.edu&thismailbox=INBOX');" onmouseover="window.status='Compose Message (danilos@mit.edu)'; return true;" onmouseout="window.status='';">danilos@mit.edu</a> </p></td>
+        </blockquote>
+</h3>
+
+
+</div></div>
+
+
+
+
+  <div class="cf"></div> 
+ 
+    
+</div> 
+<!--#include file="bottom.htm"-->
+
+
+
+
+
+  

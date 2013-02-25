@@ -1,0 +1,2 @@
+Redirect 301 /~tbp http://tbp.scripts.mit.edu
+Redirect 301 /tbp/www http://tbp.scripts.mit.edu

@@ -1,0 +1,10 @@
+<!--#include file="layout.htm"-->
+<table width="650" border="0" cellpadding="0 " cellspacing="0">
+  <tr>
+    <td class="nonbar"><h3>About</h3>
+      <p>Tau Beta Pi (TBP) is the second oldest collegiate honor  society in the nation, and the only honor society that represents the entire  engineering profession. Founded in 1885 by Professor Edward H. Williams Jr. of Lehigh   University, TBP honors those with  exemplary character and distinguished scholarship as engineering students and  alumni. Both undergraduate and graduate students are invited to become candidates  of TBP based on their academic performances, recommendations from faculty, and  their contributions to engineering and the society. TBP now consists of 241  collegiate chapters across the United States  and Puerto Rico, includes a total initiated membership  of almost 501,000.  </p>
+      <p>The Mass Beta  Chapter of Tau Beta Pi organizes many events on and off the MIT campus to expose  those in the Greater Boston community to science/engineering and to introduce  MIT students to socially conscious careers. Each year, Tau Beta Pi donates  thousands of dollars to the Museum of Science to allow all MIT  students enter the museum for free. Tau Beta Pi also organizes the Spring Career  Fair that typically occurs during the first week of classes in February to help  MIT students and alumni find jobs and internships. Service projects such as  SciPro, TBP teach, and Project Fund (TBP Fellowship) are supported by Tau Beta  Pi as well.  </p>
+      <p>&nbsp;</p></td>
+  </tr>
+</table>
+<!--#include file="bottom.htm"-->

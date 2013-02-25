@@ -1,0 +1,106 @@
+
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                
+                     <li class=""><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class="menu-link-sel"><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul> pag
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+  <div id="menu-sub"> 
+    <div id="menu-sub-in"> 
+        <ul> 
+            <li class="menu-sub-sel"> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="">About</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="calendar.shtml">Calendar</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="officers.shtml">Officers</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="pastofficers.shtml">Past Officers</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="advisor.shtml">Advisor</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="social.shtml">Social Events</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+ 
+ 
+        </ul> 
+    </div> 
+</div> 
+        
+        <div id="content-shade">&nbsp;</div> 
+        
+        <div id="content"> 
+
+        <div class="col-main"> 
+ 
+    <div class="page-hd"> 
+ <h1>MIT Tau Beta Pi</h1><br>
+
+<h3>
+Tau Beta Pi (TBP) is the second oldest collegiate honor society in the nation, and the only honor society that represents the entire engineering profession. Founded in 1885 by Professor Edward H. Williams Jr. of Lehigh University, TBP honors those with exemplary character and distinguished scholarship as engineering students and alumni. Both undergraduate and graduate students are invited to become candidates of TBP based on their academic performances, recommendations from faculty, and their contributions to engineering and the society. TBP now consists of 241 collegiate chapters across the United States and Puerto Rico, includes a total initiated membership of almost 501,000.  
+<br><br>
+The Mass Beta Chapter of Tau Beta Pi organizes many events on and off the MIT campus to expose those in the Greater Boston community to science/engineering and to introduce MIT students to socially conscious careers. Each year, Tau Beta Pi donates thousands of dollars to the Museum of Science to allow all MIT students enter the museum for free. Tau Beta Pi also organizes the Spring Career Fair that typically occurs during the first week of classes in February to help MIT students and alumni find jobs and internships. Service projects such as SciPro, TBP teach, and Project Fund (TBP Fellowship) are supported by Tau Beta Pi as well.  
+
+</h3>
+
+
+	
+</div></div>
+
+<div class="col-side">
+<div class="side-quote">
+<h2> Contact Information </h2> <br>
+<b>Office:</b> <br>77 Mass Ave. 4-134, Cambridge, MA 02139
+<br><br>
+<b>Email: <br></b>tbp-officers_at_mit_dot_edu.<br>
+<br>
+NOTE: for specific questions, please see officer page to contact the officer in charge.
+</div></div>
+
+  <div class="cf"></div> 
+ 
+    
+</div> 
+<!--#include file="bottom.htm"-->
+
+
+
+

@@ -1,0 +1,119 @@
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                <li class=""><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class="menu-link-sel"><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul> pag
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+  <div id="menu-sub"> 
+    <div id="menu-sub-in"> 
+<ul> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="career.shtml">Main</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="sponsorship.shtml">List of Companies</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+              <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="infosessions.shtml">Company Info Session Schedule</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="https://tbp.scripts.mit.edu:444/registration/">Student Registration</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+            <li class="menu-sub-sel"> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="careercontact.shtml">Contact</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+ 
+
+</div></div>
+<div id="menu-sub">
+<div id="menu-sub-in">
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="regclosed.shtml">Company Registration</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="price.shtml">Company Pricing</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="logistics.shtml">Schedule and Logistics</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+
+ 
+        </ul> 
+    </div> 
+</div> 
+<div id="content-shade">&nbsp;</div>
+<div id="content">
+<div class="col-main">
+<div class="page-hd">
+<h1>Information Session Schedule</h1>
+<b>Monday, February 6th</b> <br/>
+4:00 PM State Farm (1-135) <br/>
+4:00 PM NAVAIR (4-145)<br/>
+4:00 PM Pacific Northwest National Laboratory (4-159)<br/>
+6:00 PM Intel (4-231) <br/>
+6:00 PM Fanlime (4-159) <br/> 
+<br/>
+<b>Tuesday, February 7th</b> <br/>
+7:30 PM Baker Hughes (4-237) <br/>
+<br/>
+<b>Wednesday, February 8th</b> <br/>
+6:00 PM Boston Scientific (4-145) <br/>
+7:00 PM Tumblr (2-142) <br/>
+7:00 PM Yelp! (2-146) <br/>
+7:30 PM BrightRoll (8-119) <br/>
+7:30 PM Interactive Intelligence (8-205) <br/>
+<br/>
+<b>Thursday, February 9th</b> <br/>
+7:00 PM Inflection (5-134) <br/>
+<br/>
+<b>Thursday, February 16th</b> <br/>
+7:00PM Schlumberger (room TBD) <br/>
+<br/>
+</div>
+</div>
+<div class="cf"></div>
+</div>
+<div id="footer">
+<div id="footer-in">
+<div class="footer-links">
+<div class="cf"></div>
+Copyright © 2010 MIT Mass Beta </div>
+</div>
+</div>
+</body>
+</html>
