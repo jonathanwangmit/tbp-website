@@ -117,6 +117,10 @@ sup {
   height: 20px;
 }
 
+h3 .check-list {
+  margin-left: 0.5em !important;
+}
+
 /* line 78, ../../../app/stylesheets/_globals.sass */
 .col-main {
   float: left;
@@ -486,17 +490,31 @@ border:0;
 margin:0;
 padding:0;
 }
+
 .page-hd ul {
 margin-left: 50px;
 padding-left: 30px;
 }
 
+.page-hd ul.checklist {
+  margin-left: 45px;
+  padding-left: 10px;
+}
+
+.page-hd ul.checklist li {
+list-style-type:square;
+}
 /* line 320, ../../../app/stylesheets/_globals.sass */
 .page-hd h3 {
   font: bold 18px Helvetica, Arial, sans-serif;
   color: #414141;
  font-weight: bold;
   margin-top: 30px;
+}
+
+.page-hd h3 .emphasis {
+font-style:normal;
+color: rgb(196, 6, 6);
 }
 
 /* page headlines */
