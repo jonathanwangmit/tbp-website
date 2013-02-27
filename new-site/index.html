@@ -23,7 +23,6 @@
   <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
-<div id='root'>
   <!-- NAVIGATION -->
   <nav id="magellanTopNav" data-magellan-expedition="fixed">
     <div class='row nav'>
@@ -37,8 +36,8 @@
         <dd class='has-dropdown'>
           <a class='dropdown-link' href="">Programs</a>
           <ul class='dropdown'>
-            <li><a href="fellowships">Fellowships</a></li>
-            <li><a href="davincidinners">da Vinci Dinners</a></li>
+            <li><a href="fellowships.html">Fellowships</a></li>
+            <li><a href="davincidinners.html">da Vinci Dinners</a></li>
           </ul>
         </dd>
       </dl>
@@ -315,10 +314,12 @@
 
 
   <!-- FOOTER -->
+  <div id='root'>
+    <div id='root_footer'></div>
+  </div>
   <div id='footer'>
     <div id='footer-text'>Copyright © <em><b>MIT</b> TBP</em> Massachusetts Beta</div>
   </div>
-</div>
   <!-- Included JS Files (Compressed) -->
   <script src="javascripts/foundation.min.js"></script>
   <script src="javascripts/waypoints.min.js"></script>
@@ -332,6 +333,7 @@
       $("#featured").orbit();
     });
     $(document).ready(function() {
+      $('nav').css('opacity', '0');
       var previous = '';
       $('dd').bind('magellan.arrival', function() {
         if ($(this).attr('data-magellan-arrival') == previous) {
