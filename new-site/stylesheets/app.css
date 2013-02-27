@@ -139,10 +139,47 @@ nav #home-button a {
 nav .nav {
   height: 100%;
 }
+
 nav dl {
   float: right;
   height: 100%;
   margin: 0;
+}
+
+nav ul.dropdown {
+  background: url('../images/footer.png') repeat;
+  display: none;
+  float: right;
+  opacity: 0.95;
+  position: absolute;
+  min-width: 100px;
+}
+
+nav dd.has-dropdown a.dropdown-link:before {
+  content: "";
+  display: inline;
+  float: right;
+  width: 0;
+  height: 0;
+  border: solid 5px;
+  border-color: white transparent transparent transparent;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+nav dd.has-dropdown:hover ul {
+  display: block;
+}
+
+nav ul.dropdown li {
+  display: block;
+  width: 100%;
+}
+
+nav ul.dropdown a {
+  padding: 8px 25px 8px 9px;
+  width: 100%;
+  position: relative;
 }
 
 nav dl dd {
@@ -221,7 +258,7 @@ nav dl dd a:hover, dd.active {
   background-size: cover;
   margin: -15px auto ;
   width: 100%;
-  padding: 45px 0 35px;
+  padding: 65px 0 65px;
   position: relative;
 }
 #logo {
