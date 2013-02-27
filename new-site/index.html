@@ -9,13 +9,13 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Welcome to Foundation</title>
-  
+  <title>MIT TBP</title>
+
   <!-- Included CSS Files (Uncompressed) -->
   <!--
   <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
-  
+
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.min.css">
   <link rel="stylesheet" href="stylesheets/app.css">
@@ -23,154 +23,334 @@
   <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
-
-  <div class="row">
-    <div class="twelve columns">
-      <h2>Welcome to Foundation</h2>
-      <p>This is version <strong>3.2.5</strong> generated on February 26, 2013.</p>
-      <hr />
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="eight columns">
-      <h3>The Grid</h3>
-
-      <!-- Grid Example -->
-      <div class="row">
-        <div class="twelve columns">
-          <div class="panel">
-            <p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="six columns">
-          <div class="panel">
-            <p>Six columns</p>
-          </div>
-        </div>
-        <div class="six columns">
-          <div class="panel">
-            <p>Six columns</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-      </div>
-      
-      
-      <h3>Tabs</h3>
-      <dl class="tabs">
-        <dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
-        <dd><a href="#simple2">Simple Tab 2</a></dd>
-        <dd><a href="#simple3">Simple Tab 3</a></dd>
+<div id='root'>
+  <!-- NAVIGATION -->
+  <nav id="magellanTopNav" data-magellan-expedition="fixed">
+    <div class='row nav'>
+      <div id='home-button'><a href='/tbp/www/new-site'>TBP</a></div>
+      <dl>
+        <dd id='home-nav' data-magellan-arrival="home"><a href="#home">Home</a></dd></dd>
+        <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
+        <dd data-magellan-arrival="officers"><a href="#officers">Officers</a></dd>
+        <dd data-magellan-arrival="careerfair"><a href="#careerfair">Career</a></dd>
+        <dd data-magellan-arrival="contact"><a href="#contact">Contact</a></dd>
+        <dd><a href="programs">Programs</a></dd>
       </dl>
-
-      <ul class="tabs-content">
-        <li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
-        <li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
-        <li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
-      </ul>
-      
-      
-      
     </div>
+  </nav>
 
-    <div class="four columns">
-      <h4>Getting Started</h4>
-      <p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-      <h4>Other Resources</h4>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
-      <ul class="disc">
-        <li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-        <li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-        <li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-      </ul>
+  <!-- HOME PAGE -->
+  <a name="home" data-magellan-destination='home'></a>
+  <div class='header' id='homepage'>
+    <div id='featured'>
+      <div id='home'></div>
+      <div id='alt-home-1'>
+        <div class='announcement'>
+          <div class='date'>2/17/2013</div>
+          <div class='text'>CONGRATS TO<br><em>60</em> NEW MEMBERS</div>
+        </div>
+      </div>
+    </div>
+    <div id='blurb'>
+      <div class='rule'></div>
+      <div id='logo'><em>MIT</em> TAU BETA PI</div>
+      <div class='rule'></div>
+      <div id='one-liner'>Exemplary character and distinguished scholarship in engineering</div>
     </div>
   </div>
 
+  <!-- ABOUT PAGE -->
+  <section>
+  <a name='about' data-magellan-destination='about'></a>
+  <div id='about'>
+    <div class='row'>
+      <div class='twelve columns'>
+        <h1 class='center about'><em>ABOUT</em> TAU BETA PI</h1>
+      </div>
+    </div>
+    <div class='row graphics'>
+      <div class='four columns center'>
+        <img src='images/fact-1.png' />
+        <div class='graphic-text'><p>OLDEST COLLEGIATE</p><p>HONOR SOCIETY</p></div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/fact-2.png' />
+        <div class='graphic-text'><p>ONLY HONOR SOCIETY</p><p>REPRESENTING ENTIRE</p><p>ENGINEERING PROFESSION</p></div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/fact-3.png' />
+        <div class='graphic-text'><p>COLLEGIATE CHAPTERS</p><p>ACROSS US + PUERTO RICO</p></div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='eleven columns centered'>
+        <div id='about-blurb'>
+          Founded in 1885 by Professor Edward H. Williams Jr. of Lehigh University, TBP honors those with exemplary character and distinguished scholarship as engineering students and alumni. Both undergraduate and graduate students are invited to become candidates of TBP based on their academic performances, recommendations from faculty, and their contributions to engineering and the society. The Mass Beta Chapter of Tau Beta Pi organizes many events on and off the MIT campus to expose those in the Greater Boston community to science/engineering and to introduce MIT students to socially conscious careers.
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
   
-  <div class="row">
-    <div class="twelve columns">
-      <h3>Orbit</h3>
-      <div id="featured">
-        <img src="holder.js/1200x250/text:Slide_1" alt="slide image">
-        <img src="holder.js/1200x250/text:Slide_2" alt="slide image">
-        <img src="holder.js/1200x250/text:Slide_3" alt="slide image">
+
+  <!-- OFFICERS PAGE -->
+  <a name='officers' data-magellan-destination='officers'></a>
+  <div data-magellan-destination='officers' id='officers'>
+    <div class='row'>
+      <div class='twelve columns'>
+        <h1 class='center dark-header'><em>WHO</em> WE ARE</h1>
+      </div>
+    </div>
+    <div class='row officer-row'>
+      <div class='four columns center'>
+        <img src='images/officers/president.png' />
+        <div class='name'>
+          <a href='mailto:sunf@mit.edu'>
+            <em class='first'>FANGDI</em><span class='last'>SUN</span>
+          </a>
+        </div>
+        <div class='position'>PRESIDENT</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:jwang7@mit.edu'>
+            <em class='first'>JONATHAN</em><span class='last'>WANG</span>
+          </a>
+        </div>
+        <div class='position'>VICE PRESIDENT</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/treasurer.png' />
+        <div class='name'>
+          <a href='mailto:hjarayam@mit.edu'>
+            <em class='first'>HARSHINI</em><span class='last'>JARAYAM</span>
+          </a>
+        </div>
+        <div class='position'>TREASURER</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+    </div>
+    <div class='row officer-row'>
+      <div class='four columns center'>
+        <img src='images/officers/corrsecretary.png' />
+        <div class='name'>
+          <a href='mailto:qdnguyen@mit.edu'>
+            <em class='first'>QUAN</em><span class='last'>NGUYEN</span>
+          </a>
+        </div>
+        <div class='position'>CORR SECRETARY</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/recsecretary.png' />
+        <div class='name'>
+          <a href='mailto:yinfu@mit.edu'>
+            <em class='first'>YINFU</em><span class='last'>CHEN</span>
+          </a>
+        </div>
+        <div class='position'>REC SECRETARY</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:pyyuen@mit.edu'>
+            <em class='first'>DAISY</em><span class='last'>YUEN</span>
+          </a>
+        </div>
+        <div class='position'>PUBLICITY CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+    </div>
+    <div class='row officer-row'>
+      <div class='four columns center'>
+        <img src='images/officers/careerfairchair.png' />
+        <div class='name'>
+          <a href='mailto:heewoo@mit.edu'>
+            <em class='first'>HAILEY</em><span class='last'>KIM</span>
+          </a>
+        </div>
+        <div class='position'>CAREER FAIR CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/eligibleschair.png' />
+        <div class='name'>
+          <a href='mailto:qdnguyen@mit.edu'>
+            <em class='first'>QUAN</em><span class='last'>NGUYEN</span>
+          </a>
+        </div>
+        <div class='position'>ELIGIBLES CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:ycyoon@mit.edu'>
+            <em class='first'>RICHARD</em><span class='last'>YOON</span>
+          </a>
+        </div>
+        <div class='position'>FELLOWSHIPS CO-CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+    </div>
+    <div class='row officer-row'>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:falvello@mit.edu'>
+            <em class='first'>ANNA</em><span class='last'>FALVELLO TOMAS</span>
+          </a>
+        </div>
+        <div class='position'>FELLOWSHIPS CO-CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:rjmel@mit.edu'>
+            <em class='first'>ROBERTO</em><span class='last'>MELENDEZ</span>
+          </a>
+        </div>
+        <div class='position'>DA VINCI CO-CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:abw333@mit.edu'>
+            <em class='first'>ALAN</em><span class='last'>WAGNER</span>
+          </a>
+        </div>
+        <div class='position'>DA VINCI CO-CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+    </div>
+    <div class='row officer-row'>
+      <div class='four columns center'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:guille@mit.edu'>
+            <em class='first'>DAVID</em><span class='last'>MIRANDES</span>
+          </a>
+        </div>
+        <div class='position'>DA VINCI CO-CHAIR</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+      </div>
+      <div class='four columns center end'>
+        <img src='images/officers/unknown.png' />
+        <div class='name'>
+          <a href='mailto:styu@mit.edu'>
+            <em class='first'>STEPHANIE</em><span class='last'>YU</span>
+          </a>
+        </div>
+        <div class='position'>WEBMASTER</div>
+        <div class='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
       </div>
     </div>
   </div>
   
-  
-  
-  <div class="row">
-    <div class="twelve columns">
-      <h3>Reveal</h3>
-      <p><a href="#" data-reveal-id="exampleModal" class="button">Example modal</a></p>
+  <!-- CAREER FAIR PAGE -->
+  <a name='careerfair' data-magellan-destination='careerfair'></a>
+  <div data-magellan-destination='careerfair' id='careerfair'>
+    <div class='row'>
+      <div class='twelve columns'>
+        <div class='black-bg' id='companies'>WE BRING <em>COMPANIES</em> TO YOU</div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='twelve columns'>
+        <div class='black-bg' id='spring'>TBP SPRING CAREER FAIR</div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='twelve columns'>
+        <a class='black-bg' id='link' target='new' href='http://mit-tbp.herokuapp.com/'>SPRING 2013 SITE<div class='arrow-right'></div></a>
+      </div>
     </div>
   </div>
-  
-  <div id="exampleModal" class="reveal-modal">
-    <h2>This is a modal.</h2>
-    <p>
-      Reveal makes these very easy to summon and dismiss. The close button is simple an anchor with a unicode 
-      character icon and a class of <code>close-reveal-modal</code>. Clicking anywhere outside the modal will 
-      also dismiss it.
-    </p>
-    <a class="close-reveal-modal">×</a>
+
+  <!-- CONTACT PAGE -->
+  <a name='contact' data-magellan-destination='contact'></a>
+  <div data-magellan-destination='contact' id='contact'>
+    <div class='row center'>
+      <h1 class='dark-header'><em>CONTACT</em> US</h1>
+    </div>
+    <div id='contact-box' class='row'>
+      <div id='office' class='six columns center'>
+        <div class='row'><img src='images/office.png' /></div>
+        <div class='row'><b>email: </b><a href='mailto:tbp-officers@mit.edu'>tbp-officers@mit.edu</a></div>
+        <div class='row' id='address'>77 Massachusetts Avenue<br>Bldg. 4-134, Cambridge MA</div>
+      </div>
+      <div class='six columns'>
+        <form action="" id='contact-form'>
+          <div class='row'>
+            <div class='eight colunns'><input placeholder='YOUR NAME' type='text' /></div>
+          </div>
+          <div class='row'>
+            <div class='eight colunns'><input placeholder='YOUR EMAIL' type='text' /></div>
+          </div>
+          <div class='row'>
+            <div class='eight colunns'><input placeholder='SUBJECT' type='text' /></div>
+          </div>
+          <div class='row'>
+            <div class='eleven columns'><textarea placeholder='TELL US SOMETHING'></textarea></div>
+          </div>
+          <div class='row'>
+            <input type='submit' class='button' value='SEND' />
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
-  
-  
-  <!-- Included JS Files (Uncompressed) -->
-  <!--
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
-  <script src="javascripts/jquery.foundation.forms.js"></script>
-  <script src="javascripts/jquery.event.move.js"></script>
-  <script src="javascripts/jquery.event.swipe.js"></script>
-  <script src="javascripts/jquery.foundation.reveal.js"></script>
-  <script src="javascripts/jquery.foundation.orbit.js"></script>
-  <script src="javascripts/jquery.foundation.tabs.js"></script>
-  <script src="javascripts/jquery.foundation.tooltips.js"></script>
-  <script src="javascripts/jquery.foundation.accordion.js"></script>
-  <script src="javascripts/jquery.placeholder.js"></script>
-  <script src="javascripts/jquery.foundation.alerts.js"></script>
-  <script src="javascripts/jquery.foundation.topbar.js"></script>
-  <script src="javascripts/jquery.foundation.joyride.js"></script>
-  <script src="javascripts/jquery.foundation.clearing.js"></script>
-  <script src="javascripts/jquery.foundation.magellan.js"></script>
-  
-  -->
-  
+
+
+  <!-- FOOTER -->
+  <div id='footer'>
+    <div id='footer-text'>Copyright © <em><b>MIT</b> TBP</em> Massachusetts Beta</div>
+  </div>
+</div>
   <!-- Included JS Files (Compressed) -->
   <script src="javascripts/foundation.min.js"></script>
+  <script src="javascripts/waypoints.min.js"></script>
   
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
 
-  
+
     <script>
     $(window).load(function(){
       $("#featured").orbit();
     });
+    $(document).ready(function() {
+      var previous = '';
+      $('dd').bind('magellan.arrival', function() {
+        if ($(this).attr('data-magellan-arrival') == previous) {
+          if ($(this).attr('data-magellan-arrival') == 'home') {
+            $('nav').css('opacity', '0');
+          }
+        } else if ($(this).attr('data-magellan-arrival') !== 'home'){
+          $('nav').css('opacity', '0.95');
+        }
+        previous = $(this).attr('data-magellan-arrival');
+      });
+      $('#home-nav').click(function() {
+        $('nav').css('opacity', '0');
+      });
+      $('nav').hover(function() {
+        if ($('.active').attr('data-magellan-arrival') == 'home') {
+          $(this).css('opacity', '0.95');
+        }
+      }, function() {
+        if ($('.active').attr('data-magellan-arrival') == 'home') {
+          $(this).css('opacity', '0');
+        }
+      });
+    });
     </script> 
-  
+
 </body>
 </html>
