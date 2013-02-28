@@ -29,7 +29,13 @@
       <div id='home-button'><a href='/tbp/www/new-site'>TBP</a></div>
       <dl>
         <dd id='home-nav' data-magellan-arrival="home"><a href="#home">Home</a></dd></dd>
-        <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
+        <dd class='has-dropdown' data-magellan-arrival="about">
+          <a class='dropdown-link' href="#about">About</a>
+          <ul class='dropdown'>
+            <li><a href="pastofficers.html">Past Officers</a></li>
+            <li><a href="advisor.html">Faculty Advisor</a></li>
+          </ul>
+        </dd>
         <dd data-magellan-arrival="officers"><a href="#officers">Officers</a></dd>
         <dd data-magellan-arrival="careerfair"><a href="#careerfair">Career</a></dd>
         <dd data-magellan-arrival="contact"><a href="#contact">Contact</a></dd>
@@ -111,7 +117,7 @@
         <img src='images/officers/president.png' />
         <div class='name'>
           <a href='mailto:sunf@mit.edu'>
-            <em class='first'>FANGDI</em><span class='last'>SUN</span>
+            <span class='first'>FANGDI</span><span class='last'>SUN</span>
           </a>
         </div>
         <div class='position'>PRESIDENT</div>

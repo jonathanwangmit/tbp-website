@@ -392,13 +392,7 @@ ul.tabs-content h3 {
   -o-transition:all .1s linear; 
   -moz-transition:all .1s linear; 
   -webkit-transition:all .1s linear;
-  text-shadow: -1.5px -1.5px 2px #3a3a3a;
-  background-color: black;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(240,240,240,0.3);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+  color: black;
 }
 @media screen and (max-width:1155px) { 
   h1, #logo { 
@@ -428,12 +422,7 @@ ul.tabs-content h3 {
 #logo em {
   font-style: normal;
   position: relative;
-  background-color: rgb(58, 3, 18);
-  color: transparent;
-  text-shadow: 0px 2px 1px rgba(164, 5, 49, 0.75);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+  color: rgb(179, 6, 53);
 }
 #one-liner {
   color: #555;
@@ -490,6 +479,7 @@ h1.about em {
 }
 
 .graphic-text p {
+  color: white;
   line-height: 1.25;
   margin: 0;
   padding: 0;
@@ -521,10 +511,6 @@ h1.about em {
   color: black;
 }
 
-.officer-row a:hover {
-  color: #888;
-}
-
 .officer-row .name {
   color: black;
   font-size: 1.5em;
@@ -540,7 +526,9 @@ h1.about em {
   font-family: "Nexa Light", Helvetica, sans-serif;
   margin-left: 3px;
 }
-
+.officer-row .name a:hover .first, a:hover .last {
+  color: #888;
+}
 .officer-row .position {
   color: #b40132;
   font-family: "Nexa Bold", Helvetica, sans-serif;
