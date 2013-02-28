@@ -433,7 +433,7 @@ ul.tabs-content h3 {
   line-height: 1.25;
   margin-top: 45px;
   padding: 0 5%;
-  text-align: justify;
+  text-align: left;
 }
 
 h1.about {
@@ -634,7 +634,7 @@ h1.about em {
 ----------------------------------------- */
 
 @media screen and (max-width:1155px) { 
-  h1, h1.about, h1.dark-header, #logo { 
+  #logo { 
       font-size:6.5em; 
   }
   #one-liner {
@@ -642,19 +642,30 @@ h1.about em {
   }
 }
 @media screen and (max-width:1030px) { 
-  h1, h1.about, h1.dark-header, #logo { 
+  #logo { 
       font-size:5.5em; 
   }
   #one-liner {
     font-size: 1.6em;
   }
 }
+@media screen and (max-width:900px) {
+  #spring {
+    font-size: 4.3em;
+  }
+}
 @media screen and (max-width:850px) { 
   h1, h1.about, h1.dark-header, #logo { 
       font-size:4.5em; 
   }
+  #companies {
+    font-size: 2.4em;
+  }
+  #spring {
+    font-size: 3.7em;
+  }
 }
-@media screen and (max-width:700px) { 
+@media screen and (max-width:760px) { 
   h1, h1.about, h1.dark-header, #logo {
       font-size:3.5em; 
   }
@@ -666,6 +677,9 @@ h1.about em {
   }
   #spring {
     font-size: 4.5em;
+  }
+  nav dl dd {
+    margin-top: -17px;
   }
 }
 @media screen and (max-width:515px) { 
@@ -679,12 +693,49 @@ h1.about em {
     font-size: 1.8em;
   }
   #spring {
-    font-size: 3.8em;
+    font-size: 3.3em;
   }
   #contact-form {
     margin-top: 55px;
   }
   #office {
     margin-top: -25px;
+  }
+  nav dl dd {
+    margin-top: -17px;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  h1, h1.about, h1.dark-header, #logo {
+      font-size:2.2em; 
+  }
+  h1.about em {
+    display: block;
+    clear: right;
+  }
+  h1.about {
+    margin-bottom: -25px;
+  }
+  #blurb {
+    padding: 35px 0 50px;
+  }
+  #companies {
+    font-size: 1.5em;
+  }
+  #link {
+    font-size: 1.7em;
+  }
+  #spring {
+    font-size: 2.3em;
+  }
+  #contact-form {
+    margin-top: 55px;
+  }
+  #office {
+    margin-top: -25px;
+  }
+  nav dl dd {
+    margin-top: -17px;
   }
 }
