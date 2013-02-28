@@ -36,10 +36,10 @@
             <li><a href="advisor.html">Faculty Advisor</a></li>
           </ul>
         </dd>
-        <dd data-magellan-arrival="officers"><a href="/tbp/www/new-site/index.html#officers">Officers</a></dd>
-        <dd data-magellan-arrival="careerfair"><a href="/tbp/www/new-site/index.html#careerfair">Career</a></dd>
-        <dd data-magellan-arrival="contact"><a href="/tbp/www/new-site/index.html#contact">Contact</a></dd>
-        <dd class='has-dropdown'>
+        <dd class='hide-for-small' data-magellan-arrival="officers"><a href="/tbp/www/new-site/index.html#officers">Officers</a></dd>
+        <dd class='hide-for-small' data-magellan-arrival="careerfair"><a href="/tbp/www/new-site/index.html#careerfair">Career</a></dd>
+        <dd class='hide-for-small' data-magellan-arrival="contact"><a href="/tbp/www/new-site/index.html#contact">Contact</a></dd>
+        <dd class='active has-dropdown'>
           <a class='dropdown-link' href="">Programs</a>
           <ul class='dropdown'>
             <li><a href="fellowships.html">Fellowships</a></li>
@@ -80,8 +80,9 @@
 
 
     <script>
-
-
+      $(document).ready(function() {
+        $('#home-nav').removeClass('active');
+      });
     </script> 
 
 </body>

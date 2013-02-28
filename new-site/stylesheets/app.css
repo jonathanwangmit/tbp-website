@@ -12,6 +12,7 @@
 :: Officers Page
 :: Career Fair Page
 :: Contact Page
+:: Responsiveness
 */
 
 
@@ -374,7 +375,7 @@ ul.tabs-content h3 {
 }
 
 #blurb {
-  background: url('../images/furley_bg.png') 0 0 repeat; min-height: 300px;
+  background: url('../images/furley_bg.png') 0 0 repeat;
   background-size: cover;
   margin: -15px auto ;
   width: 100%;
@@ -393,31 +394,6 @@ ul.tabs-content h3 {
   -moz-transition:all .1s linear; 
   -webkit-transition:all .1s linear;
   color: black;
-}
-@media screen and (max-width:1155px) { 
-  h1, #logo { 
-      font-size:6.5em; 
-  }
-}
-@media screen and (max-width:1030px) { 
-  h1, #logo { 
-      font-size:5.5em; 
-  }
-}
-@media screen and (max-width:850px) { 
-  h1, #logo { 
-      font-size:4.5em; 
-  }
-}
-@media screen and (max-width:700px) { 
-  h1, #logo {
-      font-size:3.5em; 
-  }
-}
-@media screen and (max-width:515px) { 
-  h1, #logo {
-      font-size:2.5em; 
-  }
 }
 #logo em {
   font-style: normal;
@@ -503,6 +479,7 @@ h1.about em {
 }
 
 .description {
+  line-height: 1.3;
   margin: 10px auto 0;
   width: 80%;
 }
@@ -650,4 +627,64 @@ h1.about em {
   font-size: 1.05em;
   font-weight: 200;
   margin-top: 10px;
+}
+
+/* -----------------------------------------
+   Contact Page
+----------------------------------------- */
+
+@media screen and (max-width:1155px) { 
+  h1, h1.about, h1.dark-header, #logo { 
+      font-size:6.5em; 
+  }
+  #one-liner {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width:1030px) { 
+  h1, h1.about, h1.dark-header, #logo { 
+      font-size:5.5em; 
+  }
+  #one-liner {
+    font-size: 1.6em;
+  }
+}
+@media screen and (max-width:850px) { 
+  h1, h1.about, h1.dark-header, #logo { 
+      font-size:4.5em; 
+  }
+}
+@media screen and (max-width:700px) { 
+  h1, h1.about, h1.dark-header, #logo {
+      font-size:3.5em; 
+  }
+  #one-liner {
+    font-size: 1.4em;
+  }
+  #companies {
+    font-size: 2.5em;
+  }
+  #spring {
+    font-size: 4.5em;
+  }
+}
+@media screen and (max-width:515px) { 
+  h1, h1.about, h1.dark-header, #logo {
+      font-size:2.5em; 
+  }
+  #blurb {
+    padding: 35px 0 50px;
+  }
+  #companies {
+    font-size: 1.8em;
+  }
+  #spring {
+    font-size: 3.8em;
+  }
+  #contact-form {
+    margin-top: 55px;
+  }
+  #office {
+    margin-top: -25px;
+  }
 }
