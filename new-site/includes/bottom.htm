@@ -20,7 +20,6 @@
       var menu_item = $('a[name=' + pathname+']').attr('rel');
       $('dd[name=' + menu_item +']').addClass('active');
       $('.error').hide();
-      $('.email-success').hide();
       
       $('#contact-form').submit(function(data) {
       console.log('submitting');
@@ -33,8 +32,8 @@
               console.log(data);
           if (data == 'success') {
             console.log('email sent');
-            $('#contact-form input').removeClass('error');
-            $('#contact-form textarea').removeClass('error');
+            $('#contact-form input[type=text]').removeClass('error').val('');
+            $('#contact-form textarea').removeClass('error').val('');
             $('.error').hide();
             $('.email-success').slideDown();
             setTimeout(function() {$('.email-success').slideUp()}, 2000);

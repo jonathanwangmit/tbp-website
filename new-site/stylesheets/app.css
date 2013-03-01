@@ -643,6 +643,7 @@ h1.about em {
 }
 
 .email-success {
+  display: none;
   position: fixed !important;
   top: 0;
   z-index: 1000;
