@@ -581,7 +581,7 @@ h1.about em {
    Contact Page
 ----------------------------------------- */
 #contact {
-  background: url('../images/furley_bg.png') 0 0 repeat; min-height: 300px;
+  background: url('../images/furley_bg.png') 0 0 repeat;;
   background-size: cover;
   margin: 0 auto;
   width: 100%;
@@ -590,7 +590,7 @@ h1.about em {
 }
 
 #contact-box {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 #contact-form input[type=text] {
@@ -629,6 +629,29 @@ h1.about em {
   margin-top: 10px;
 }
 
+.input-error {
+  margin-top: -26px !important;
+}
+
+.textarea-error {
+  margin-top: -13px !important;
+  margin-left: -5px;
+}
+
+.contact-text {
+  width: 100% !important;
+}
+
+.email-success {
+  position: fixed !important;
+  top: 0;
+  z-index: 1000;
+  width: 72%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #5da423 !important;
+  border-color: #457a1a !important;
+}
 /* -----------------------------------------
    Contact Page
 ----------------------------------------- */

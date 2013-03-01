@@ -19,6 +19,48 @@
       $('dd').removeClass('active');
       var menu_item = $('a[name=' + pathname+']').attr('rel');
       $('dd[name=' + menu_item +']').addClass('active');
+      $('.error').hide();
+      $('.email-success').hide();
+      
+      $('#contact-form').submit(function(data) {
+      console.log('submitting');
+        $.post('http://tbp.scripts.mit.edu/php/mail.php',
+               {name: $('#contact-form input[name=name]').val(),
+                email: $('#contact-form input[name=email]').val(),
+                subject: $('#contact-form input[name=subject]').val(),
+                content: $('#contact-form textarea[name=content]').val()},
+              function(data) {
+              console.log(data);
+          if (data == 'success') {
+            console.log('email sent');
+            $('#contact-form input').removeClass('error');
+            $('#contact-form textarea').removeClass('error');
+            $('.error').hide();
+            $('.email-success').slideDown();
+            setTimeout(function() {$('.email-success').slideUp()}, 2000);
+          } else {
+            var errors = data.split(' ');
+            for (var i = 0; i < errors.length; i ++) {
+              var error = errors[i].split(':');
+              if (error[0] == 'missing') {
+                if (error[1] == 'content') {
+                  $('#contact-form textarea[name=content]').parent().children('.error').show();
+                  $('#contact-form textarea[name=content]').addClass('error');
+                } else {
+                  $('#contact-form input[name=' + error[1] + ']').parent().children('.error').show();
+                  $('#contact-form input[name=' + error[1] + ']').addClass('error');
+                }
+                console.log(error[1] + ' is missing');
+              } else if (error[0] == 'invalid') {
+                $('#contact-form input[name=' + error[1] + ']').parent().children('.invalid').show();
+                $('#contact-form input[name=' + error[1] + ']').addClass('error');
+                console.log(error[1] + ' is invalid');
+              }
+            }
+          }
+        });
+        return false;
+      });
     });
     </script> 
 
