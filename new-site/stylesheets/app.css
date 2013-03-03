@@ -67,7 +67,7 @@ html {
 }
 
 #footer-text em b {
-  color: #bb0033;
+  color: #b40132;
 }
 
 #root {
@@ -196,7 +196,7 @@ nav:hover {
 }
 
 nav #home-button {
-  background-color: #ff0046;
+  background-color: #b40132;
   display: inline-block;
   height: 100%;
   padding: 0 18px;
@@ -267,7 +267,7 @@ nav dl dd a {
   display: inline-block;
   font-size: 1.1em;
   font-weight: 200;
-  padding: 5px 8px 0;
+  padding: 6px 8px 0;
   height: 100%;
 }
 
@@ -352,7 +352,7 @@ ul.tabs-content h3 {
 }
 
 .header .announcement .text em {
-  color: #b70335;
+  color: #b40132;
   font-style: normal;
 }
 
@@ -398,7 +398,7 @@ ul.tabs-content h3 {
 #logo em {
   font-style: normal;
   position: relative;
-  color: rgb(179, 6, 53);
+  color: #b40132;
 }
 #one-liner {
   color: #555;
@@ -760,6 +760,16 @@ h1.about em {
     margin-top: -25px;
   }
   nav dl dd {
-    margin-top: -17px;
+    margin-top: -18px;
+  }
+  nav #home-button {
+    background-color: #b40132;
+    display: inline-block;
+    height: 100%;
+    padding: 0 10px;
+  }
+  nav dl dd a {
+    padding-right: 4px;
+    padding-right: 4px;
   }
 }
