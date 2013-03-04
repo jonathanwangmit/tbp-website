@@ -1,66 +1,30 @@
-<!--#include file="layout.htm"-->
-<!--#include file="header.htm"-->
+<!--#include virtual="includes/header.htm"-->
+<!--#include virtual="includes/home-nav.htm"-->
 
- <div class="home-hero"> 
- 
-    <div class="hero-cnt"> 
-      <div class="hero-slider"> 
-        <div class="hero-item"> 
-           <div class="hero-item-txt"> 
-            <h1>MIT Tau Beta Pi</h1> 
-            <h2> 
-             TBP honors those with exemplary character and distinguished scholarship as engineering students and alumni. <br><br>
-			
-			TBP hosts the annual MIT TBP Spring Career Fair.  
-			The 2013 Career Fair is over, but come find us next year!
-                      </h2> 
-           
-           </div>
-           
-            <div class="hero-item-scr"> 
-        	  <a class="scr-over pngbg"> 
-                <div class="scr-over pngbg"></div> 
-                <img src="./images/homepage/3.jpg" width="506" border="0" alt="" /> 
-              </a>
-            </div> 
-            
-            
-            
-          
-            
+  <!-- HOME PAGE -->
+  <a name="home" data-magellan-destination='home'></a>
+  <div class='header' id='homepage'>
+    <div id='featured'>
+      <div id='home'></div>
+      <div id='alt-home-1'>
+        <div class='announcement'>
+          <div class='date'>2/17/2013</div>
+          <div class='text'>CONGRATS TO<br><em>60</em> NEW MEMBERS</div>
         </div>
-        
-        
-        
-        <div class="hero-item"> 
-        
-        	 <div class="hero-item-scr"> 
-        	  <a class="scr-over pngbg"> 
-                <div class="scr-over-left pngbg"></div> 
-                <img src="./images/homepage/SolLeWitt.jpg" width="506" border="0" alt="" /> 
-              </a>
-            </div> 
-            
-            <div class="hero-item-txt"> 
-            <h1>Announcements</h1>
-            <h2>
-            <b>2/17/2013</b><br/>
-            Congrats to 60 new members!<br/><br/>
-            </h2>
-            </div>
-            
-        </div>
-     </div>
-   </div>
-    <div class="hero-bot"> 
-      <div class="hero-nav"> 
-        <a href="#" id="hero-sel-1" class="hero-sel"></a> 
-        <a href="#" id="hero-sel-2"></a> 
-      </div> 
-    </div> 
-   
- </div>
- 
+      </div>
+    </div>
+    <div id='blurb'>
+      <div class='rule'></div>
+      <div id='logo'><em>MIT</em> TAU BETA PI</div>
+      <div class='rule'></div>
+      <div class='hide-for-small' id='one-liner'>Exemplary character and distinguished scholarship in engineering</div>
+    </div>
+  </div>
 
+<!--#include virtual="includes/pages/about.htm"-->
+<!--#include virtual="includes/pages/officers.htm"-->
+<!--#include virtual="includes/pages/careerfair.htm"-->
+<!--#include virtual="includes/pages/contact.htm"-->
 
-				<!--#include file="bottom.htm"-->
+<!--#include virtual="includes/footer.htm"-->
+<!--#include virtual="includes/bottom.htm"-->

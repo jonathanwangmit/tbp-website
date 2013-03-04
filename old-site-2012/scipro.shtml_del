@@ -1,0 +1,102 @@
+<!--#include file="layout.htm"-->
+
+<body>
+<script src="./tbpHome.js" type="text/javascript"></script> 
+
+
+
+ <div id="menu"> 
+            <div id="menu-in"> 
+                
+                
+                <ul class="menu-links"> 
+                <li class=""><span id="home" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./index.shtml">HOME</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="information" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./information.shtml">INFORMATION</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class="menu-link-sel"><span id="programs" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./programs.shtml">PROGRAMS</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="eligibility" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./eligibility.shtml">ELIGIBILITY</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="career" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./career.shtml">CAREER FAIR</a></span><span class="menu-r pngbg"></span></li> 
+                    <li class=""><span id="sponsorship" class="menu-l pngbg"></span><span class="menu-m pngbg"><a href="./sponsorship.shtml">SPONSORSHIP</a></span><span class="menu-r pngbg"></span></li> 
+               
+                </ul> pag
+                <a href="./index.shtml" class="menu-logo pngbg"><span>MIT TBP</span></a> 
+            </div> 
+        </div> 
+        
+
+  <div id="menu-sub"> 
+    <div id="menu-sub-in"> 
+        <ul> 
+            <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="programs.shtml">Overview</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+            
+            <li class="menu-sub-sel"> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="scipro.shtml">Sci Pro</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li> 
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="tbpteach.shtml">TBP Teach</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+
+             <li class=""> 
+              <span class="menu-l pngbg"></span> 
+              <span class="menu-m pngbg"><a href="fellowships.shtml">Fellowships</a></span> 
+              <span class="menu-r pngbg"></span> 
+            </li>
+ 
+ 
+        </ul> 
+    </div> 
+</div> 
+        
+        <div id="content-shade">&nbsp;</div> 
+        
+        <div id="content"> 
+
+        <div class="col-main"> 
+ 
+    <div class="page-hd"> 
+ <h1>Sci Pro </h1><br>
+
+SciPro is a student-run service project funded by the MIT chapter of Tau Beta Pi, the national engineering honor society.  Short for "Science Project," SciPro nurtures middle school students' interest in science through the mentoring of MIT students.  Together, they develop and execute a science fair project by the end of the program.
+<br>
+For more information about the program and the application process, see our <a href="description-2011-02.pdf">Spring 2011 flier</a>.
+<br><br>
+Applications for Spring 2011 are being accepted online through <b>Wednesday, February 16th</b>.  Below are the links to the applications forms.  Please choose the one appropriate to you.
+<br>
+<blockquote><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dHVrVWZoM2FKclFPN3ZLNF9VVXV6U1E6MA#gid=0">Middle School Student Application Form</a>
+<br><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dG9PcU9WeUc0clNqZVJmYlpqclAxbEE6MQ#gid=0">Teacher Recommendation Form</a>
+<br><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dGMzWUV3X1hDa2FXRkIwNGJvWXJUOUE6MA#gid=0">MIT Student Mentor Application Form</a>
+
+
+
+
+</blockquote>
+	
+</div></div>
+
+ 
+<div class="col-side">
+
+ <div class="side-divi"></div> 
+<div class="side-quote">
+<b> Have any concerns or questions?</b><br>
+Please email questions to <a href="javascript:open_compose_win('to=scipro-staff%40mit.edu&thismailbox=INBOX');" onmouseover="window.status='Compose Message (scipro-staff@mit.edu)'; return true;" onmouseout="window.status='';">scipro-staff@mit.edu</a><br>
+</div>
+ 
+</div>
+
+  <div class="cf"></div> 
+ 
+    
+</div> 
+<!--#include file="bottom.htm"-->
+
+
+
+

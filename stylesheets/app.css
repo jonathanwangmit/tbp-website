@@ -1,0 +1,775 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Buttons
+:: Navigation
+:: Tab styles
+:: Home Page
+:: About Page
+:: Officers Page
+:: Career Fair Page
+:: Contact Page
+:: Responsiveness
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+@font-face {
+  font-family: "Nexa Bold";
+  src: url('fonts/NexaBold.otf');
+}
+@font-face {
+  font-family: "Nexa Light";
+  src: url('fonts/NexaLight.otf');
+}
+
+body {
+  background: url('../images/furley_bg.png') 0 0 repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0 0 65px;
+  width: 100%;
+  position: relative;
+}
+
+html {
+  min-height: 100%;
+  height: 100%;
+}
+
+#footer {
+  background: url('../images/footer.png') 0 0 repeat;
+  background-size: cover;
+  clear: both;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  position: relative:
+  left: 0;
+  bottom: 0;
+}
+
+#footer-text {
+  color: white;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#footer-text em {
+ color: white;
+ font-family: "Nexa Bold", Helvetica, sans-serif;
+ font-style: normal;
+}
+
+#footer-text em b {
+  color: #b40132;
+}
+
+#root {
+  min-height: 50%;
+  margin-top: 25px;
+  clear: both;  
+  height: auto;
+  margin-bottom: -30px;
+}
+
+#root #root_footer {
+  height: 65px;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  margin-top: 25px;
+}
+
+.main {
+  padding-top: 65px;
+}
+
+em {
+  color: #13a5c9;
+  font-style: normal;
+}
+
+h1.dark-header {
+  color: #434343;
+  font-family: "Nexa Light", Helvetica, sans-serif;
+  font-size: 5em;
+  font-weight: 200;
+}
+
+h1.dark-header em {
+  color: black;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  color: #555;
+  font-size: 2.2em;
+  margin: 0;
+}
+
+h3 {
+  color: #13a5c9;
+  font-size: 1.8em;
+}
+
+p {
+  color: #3c3c3c;
+}
+
+/* -----------------------------------------
+   Buttons
+----------------------------------------- */
+
+.button {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 7px 25px;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.normal {
+  background-color: #13a5c9;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 11px 20px 11px 15px;
+  margin-top: 25px;
+}
+
+.normal:hover {
+  background-color: #1384a0;
+  color: white;
+}
+
+.normal .right-arrow {
+  display: inline-block;
+  width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid white;
+	margin-left: 15px;
+}
+
+input[type=submit] {
+  background-color: #22bc08;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #1c9e06;
+}
+
+/* -----------------------------------------
+   Navigation
+----------------------------------------- */
+nav {
+  background: url('../images/footer.png') repeat;
+  height: 40px;
+  opacity: 0.95;
+  width: 100%;
+  z-index: 50;
+  position: absolute;
+  top: 0;
+}
+
+nav:hover {
+  opacity: 0.95;
+}
+
+nav #home-button {
+  background-color: #b40132;
+  display: inline-block;
+  height: 100%;
+  padding: 0 18px;
+}
+
+nav #home-button a {
+  color: white;
+  display: inline-block;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-size: 1.3em;
+  height: 100%;
+  padding-top: 12px;
+}
+
+nav .nav {
+  height: 100%;
+}
+
+nav dl {
+  float: right;
+  height: 100%;
+  margin: 0;
+}
+
+nav ul.dropdown {
+  background: url('../images/footer.png') repeat;
+  display: none;
+  float: right;
+  opacity: 0.95;
+  position: absolute;
+  min-width: 100px;
+}
+
+nav dd.has-dropdown a.dropdown-link:before {
+  content: "";
+  display: inline;
+  float: right;
+  width: 0;
+  height: 0;
+  border: solid 5px;
+  border-color: white transparent transparent transparent;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+nav dd.has-dropdown:hover ul {
+  display: block;
+}
+
+nav ul.dropdown li {
+  display: block;
+  width: 100%;
+}
+
+nav ul.dropdown a {
+  padding: 8px 25px 8px 9px;
+  width: 100%;
+  position: relative;
+}
+
+nav dl dd {
+  display: inline-block;
+  height: 100%;
+}
+
+nav dl dd a {
+  color: white;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 200;
+  padding: 6px 8px 0;
+  height: 100%;
+}
+
+nav dl dd a:hover, dd.active {
+  background-color: #444;
+  color: white;
+}
+
+/* -----------------------------------------
+   Tabs Styling
+----------------------------------------- */
+dl.tabs {
+  margin-bottom: 0;
+}
+
+dl.tabs dd {
+  background: #c8c8c8;
+  border: none;
+  margin-right: 3px;
+}
+
+dl.tabs dd a {
+  color: black;
+}
+
+dl.tabs dd.active {
+  background: #777;
+  border: none;
+  margin: 0 3px 0 0;
+}
+
+dl.tabs dd.active a {
+  color: white;
+  background: none;
+}
+
+ul.tabs-content {
+  background: white;
+  padding: 40px 30px 30px;
+}
+
+ul.tabs-content .first {
+  margin-top: 45px;
+}
+
+ul.tabs-content hr {
+  margin-top: 5px;
+}
+
+ul.tabs-content h3 {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+/* -----------------------------------------
+   Home Page
+----------------------------------------- */
+.header {
+  z-index: 10000;
+}
+.header .announcement {
+  background: black;
+  color: white;
+  display: block;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  opacity: 0.84;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  bottom: 10%;
+  right: 10%;
+  width: 260px;
+}
+
+.header .announcement .date {
+  font-size: x-large;
+}
+
+.header .announcement .text {
+  font-size: 1.8em;
+  margin-top: 25px;
+}
+
+.header .announcement .text em {
+  color: #b40132;
+  font-style: normal;
+}
+
+#home {
+  background: url('../images/header-1.png') 0 0 no-repeat; min-height: 354px;
+  background-size: cover;
+  height: 354px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+#alt-home-1 {
+  background: url('../images/header-2.png') 0 0 no-repeat; min-height: 354px;
+  background-size: cover;
+  height: 354px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#blurb {
+  background: url('../images/furley_bg.png') 0 0 repeat;
+  background-size: cover;
+  margin: -15px auto ;
+  width: 100%;
+  padding: 65px 0 65px;
+  position: relative;
+}
+#logo {
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-size: 7.5em;
+  margin: 35px auto;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  transition:all .1s linear; 
+  -o-transition:all .1s linear; 
+  -moz-transition:all .1s linear; 
+  -webkit-transition:all .1s linear;
+  color: black;
+}
+#logo em {
+  font-style: normal;
+  position: relative;
+  color: #b40132;
+}
+#one-liner {
+  color: #555;
+  font-weight: 200;
+  font-size: 2em;
+  margin: 15px auto;
+  text-align: center;
+  width: 80%;
+}
+.rule {
+  background-color: #343434;
+  height: 1px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* -----------------------------------------
+   About Page
+----------------------------------------- */
+#about {
+  background: url('../images/about_bg.png') 0 no-repeat; min-height: 568px;
+  background-size: cover;
+  height: 568px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+#about-blurb {
+  color: white;
+  font-size: 1.05em;
+  line-height: 1.25;
+  margin-top: 45px;
+  padding: 0 5%;
+  text-align: left;
+}
+
+h1.about {
+  color: #dadada;
+  font-family: "Nexa Light", Helvetica, sans-serif;
+  font-size: 5em;
+  font-weight: 200;
+  margin-top: 35px;
+}
+h1.about em {
+  color: white;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.graphic-text {
+  color: white;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+}
+
+.graphic-text p {
+  color: white;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------------------------------------
+   Officers Page
+----------------------------------------- */
+#officers {
+  background: url('../images/furley_bg.png') 0 0 repeat; min-height: 300px;
+  background-size: cover;
+  margin: 0 auto ;
+  width: 100%;
+  padding: 30px 0 35px;
+  position: relative;
+}
+
+.officer-row {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.description {
+  line-height: 1.3;
+  margin: 10px auto 0;
+  width: 80%;
+}
+
+.officer-row a {
+  color: black;
+}
+
+.officer-row .name {
+  color: black;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+.officer-row .name .first {
+  color: black;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.officer-row .name .last {
+  font-family: "Nexa Light", Helvetica, sans-serif;
+  margin-left: 3px;
+}
+.officer-row .name a:hover .first, a:hover .last {
+  color: #888;
+}
+.officer-row .position {
+  color: #b40132;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: 3px;
+}
+
+/* -----------------------------------------
+   Career Fair Page
+----------------------------------------- */
+#careerfair {
+  background: url('../images/careerfair.png') 0 0 no-repeat; min-height: 428px;
+  background-size: cover;
+  height: 428px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.black-bg {
+  background-color: black;
+  clear: both;
+  display: inline-block;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  font-style: normal;
+  margin-bottom: 15px;
+  opacity: 0.74;
+}
+
+#companies {
+  color: #b1b1b1;
+  font-size: 3em;
+  margin-top: 10%;
+  padding: 15px 45px 5px 15px;
+}
+
+#companies em {
+  color: #00ccff;
+  font-style: normal;
+}
+
+#spring {
+  color: white;
+  font-size: 4.5em;
+  padding: 15px 55px 5px 15px;
+  width: 100%;
+}
+
+#link {
+  color: #b1b1b1;
+  float: right;
+  font-size: 2.2em;
+  margin-top: 55px;
+  padding: 15px 10px 10px 15px;
+}
+
+#link:hover {
+  background-color: #333;
+  opacity: 0.9;
+}
+
+#link .arrow-right {
+  display: inline-block;
+  width: 0; 
+	height: 0; 
+	border-top: 11px solid transparent;
+	border-bottom: 11px solid transparent;
+	border-left: 11px solid #00ccff;
+	margin-left: 25px;
+}
+
+/* -----------------------------------------
+   Contact Page
+----------------------------------------- */
+#contact {
+  background: url('../images/furley_bg.png') 0 0 repeat;;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 0;
+  position: relative;
+}
+
+#contact-box {
+  margin-top: 25px;
+}
+
+#contact-form input[type=text] {
+  font-size: 1.3em;
+  height: 45px;
+  margin-bottom: 25px;
+}
+
+#contact-form textarea {
+  font-size: 1.3em;
+  margin-left: -5px;
+  min-height: 200px;
+}
+
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder { 
+  font-family: "Nexa Light", Helvetica, sans-serif;
+}
+#contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder { 
+  font-family: "Nexa Light", Helvetica, sans-serif;
+} /* firefox 19+ */
+#contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder { 
+  font-family: "Nexa Light", Helvetica, sans-serif;
+} /* ie */
+#contact-form input:-moz-placeholder, #contact-form textarea:-moz-placeholder { 
+  font-family: "Nexa Light", Helvetica, sans-serif; 
+}
+
+#office {
+  color: #727272;
+  font-size: 1.1em;
+}
+
+#office #address {
+  font-size: 1.05em;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.input-error {
+  margin-top: -26px !important;
+}
+
+.textarea-error {
+  margin-top: -13px !important;
+  margin-left: -5px;
+}
+
+.contact-text {
+  width: 100% !important;
+}
+
+.email-success {
+  display: none;
+  position: fixed !important;
+  top: 0;
+  z-index: 1000;
+  width: 72%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #5da423 !important;
+  border-color: #457a1a !important;
+}
+/* -----------------------------------------
+   Contact Page
+----------------------------------------- */
+
+@media screen and (max-width:1155px) { 
+  #logo { 
+      font-size:6.5em; 
+  }
+  #one-liner {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width:1030px) { 
+  #logo { 
+      font-size:5.5em; 
+  }
+  #one-liner {
+    font-size: 1.6em;
+  }
+}
+@media screen and (max-width:900px) {
+  #spring {
+    font-size: 4.3em;
+  }
+}
+@media screen and (max-width:850px) { 
+  h1, h1.about, h1.dark-header, #logo { 
+      font-size:4.5em; 
+  }
+  #companies {
+    font-size: 2.4em;
+  }
+  #spring {
+    font-size: 3.7em;
+  }
+}
+@media screen and (max-width:760px) { 
+  h1, h1.about, h1.dark-header, #logo {
+      font-size:3.5em; 
+  }
+  #one-liner {
+    font-size: 1.4em;
+  }
+  #companies {
+    font-size: 2.5em;
+  }
+  #spring {
+    font-size: 4.5em;
+  }
+  nav dl dd {
+    margin-top: -17px;
+  }
+}
+@media screen and (max-width:515px) { 
+  h1, h1.about, h1.dark-header, #logo {
+      font-size:2.5em; 
+  }
+  #blurb {
+    padding: 35px 0 50px;
+  }
+  #companies {
+    font-size: 1.8em;
+  }
+  #spring {
+    font-size: 3.3em;
+  }
+  #contact-form {
+    margin-top: 55px;
+  }
+  #office {
+    margin-top: -25px;
+  }
+  nav dl dd {
+    margin-top: -17px;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  h1, h1.about, h1.dark-header, #logo {
+      font-size:2.2em; 
+  }
+  h1.about em {
+    display: block;
+    clear: right;
+  }
+  h1.about {
+    margin-bottom: -25px;
+  }
+  #blurb {
+    padding: 35px 0 50px;
+  }
+  #companies {
+    font-size: 1.5em;
+  }
+  #link {
+    font-size: 1.7em;
+  }
+  #spring {
+    font-size: 2.3em;
+  }
+  #contact-form {
+    margin-top: 55px;
+  }
+  #office {
+    margin-top: -25px;
+  }
+  nav dl dd {
+    margin-top: -18px;
+  }
+  nav #home-button {
+    background-color: #b40132;
+    display: inline-block;
+    height: 100%;
+    padding: 0 10px;
+  }
+  nav dl dd a {
+    padding-right: 4px;
+    padding-right: 4px;
+  }
+}

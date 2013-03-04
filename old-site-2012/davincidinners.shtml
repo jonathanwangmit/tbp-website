@@ -1,0 +1,19 @@
+<!--#include file="layout.htm"-->
+<!--#include file="header.htm"-->
+        
+        <div id="content-shade">&nbsp;</div> 
+        
+        <div id="content"> 
+
+        <div class="col-main"> 
+ 
+    <div class="page-hd"> 
+<h1>TBP da Vinci Dinners</h1><br>
+<h3>As stated in the preamble to our constitution, one of the major goals of Tau Beta Pi, the National Engineering Honor Society, is "to foster a spirit of liberal culture at engineering colleges." Towards this end, the MIT chapter of Tau Beta Pi is pleased to host a series of dinner lectures, the TBP Leonardo da Vinci Dinners. MIT faculty members and TBP students from a wide variety of departments are invited to each dinner to enjoy good food, listen to an interesting presentation on a variety of topics, and engage in hearty conversation in the spirit of Leonardo da Vinci: artist, architect, engineer, scientist, and philosopher. It is our hope that by bringing together people from many different fields we can foster the kind of intellectual diversity and love of knowledge exemplified by Leonardo and representative of Tau Beta Pi.
+
+These elegant dinners bring together about twenty TBP members and several faculty members. Each dinner begins at 6:00 PM and lasts approximately two hours. One of the faculty members gives a short presentation which acts as a catalyst for conversation during dinner. The presentations are meant to confront us with relevant issues of science, society, and culture: in short, to foster a spirit of liberal culture here at MIT. Dinner is provided free of charge to all guests.</h3>
+</div>
+</div>
+</div>
+<div class="cf"></div>
+<!--#include file="bottom.htm"-->

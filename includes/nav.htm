@@ -1,0 +1,32 @@
+<!-- NAVIGATION -->
+<!-- different than home-nav since links have to be with absolute path
+     instead of just the tag -->
+<nav id="magellanTopNav" data-magellan-expedition="fixed">
+  <div class='row nav'>
+    <div id='home-button'><a href='/tbp/www/'>TBP</a></div>
+    <dl>
+      <dd id='home-nav' data-magellan-arrival="home"><a href="/tbp/www/">Home</a></dd></dd>
+      <!-- name attribute for javascript, to highlight about menu item when visiting sub menu links -->
+      <dd name="about" class='has-dropdown' data-magellan-arrival="about">
+        <a class='dropdown-link' href="/tbp/www/index.shtml#about">About</a>
+        <ul class='dropdown'>
+          <!-- rel attribute for javascript, to highlight about menu item when visiting the below links -->
+          <!-- rel attribute must have same name as file -->
+          <li><a name="pastofficers" rel="about" href="pastofficers.shtml">Past Officers</a></li>
+          <li><a name="advisor" rel="about" href="advisor.shtml">Faculty Advisor</a></li>
+        </ul>
+      </dd>
+      <dd data-magellan-arrival="officers"><a class='hide-for-small' href="/tbp/www/index.shtml#officers">Officers</a></dd>
+      <dd data-magellan-arrival="careerfair"><a class='hide-for-small' href="/tbp/www/index.shtml#careerfair">Career</a></dd>
+      <dd data-magellan-arrival="contact"><a class='hide-for-small' href="/tbp/www/index.shtml#contact">Contact</a></dd>
+      <dd name="programs" class='has-dropdown'>
+        <a class='dropdown-link' href="">Programs</a>
+        <ul class='dropdown'>
+          <!-- rel attribute for javascript, to highlight programs menu item when visiting the below links -->
+          <li><a name="fellowships" rel="programs" href="fellowships.shtml">Fellowships</a></li>
+          <li><a name="davincidinners" rel="programs" href="davincidinners.shtml">da Vinci Dinners</a></li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+</nav>

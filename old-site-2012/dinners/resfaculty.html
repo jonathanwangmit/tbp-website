@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Leonardo Dinner Series: Student Reservations</title>
+  <link href="http://web.mit.edu/tbp/www/tbp-main.css" rel="stylesheet" type="text/css">
+  <style>body {background-image:url(images/TBP.gif)}</style>
+</head>
+
+<body>
+
+<hr noshade>
+
+<h1>Leonardo Dinner Series</h1>
+<p><a href="index.html">Home</a> |
+   <a href="information.html">Information</a> | 
+   <a href="schedule.html">Schedule</a> |
+   <a href="contacts.html">Contacts</a>
+
+<hr noshade>
+
+<h1>TBP Member Student Reservation Form</h1>
+
+<p>Please check our <a href="schedule.html">schedule</a> for dinners and list your choices below.
+
+<h2>New Reservation Policy</h2>
+
+<p>Please notify us at least three business days in advance if you need 
+to cancel your reservation (failure to do so may result in the cancellation 
+of future reservations and/or a fine to cover the cost of the dinner). If you 
+submit this form more
+than once, your new information will replace information from previous
+submissions. Please indicate that you are resubmitting the form in the Notes section of the form.
+If you have any questions on the reservation policy or about the Leonardo
+dinners, please email <a href="mailto:tbp-leonardo">tbp-leonardo</a>.
+
+<p>We expect that all members attend all dinners for which they have
+reservations and that they dress appropriately for each dinner (that is in
+semi-formal business attire). Neglecting to do either of these may result
+in the cancellation of any future dinner reservations and/or a fine to cover
+the cost of the dinner.
+
+<p>
+<form method="post" action="http://web.mit.edu/bin/cgiemail/afs/athena.mit.edu/activity/t/tbp/www/dinners/resfaculty.form">
+<table>
+<tr><td>Name:</td>               <td><input name="required-name"  size=20></td></tr>
+<tr><td>Title:</td>               <td><input name="title"  size=20></td></tr>
+<tr><td>Department:</td>               <td><input name="dept"  size=20></td></tr>
+<tr><td>MIT Email address:</td>  <td><input name="required-email" size=20></td></tr>
+</table>
+
+<p> Will you be attending the December 10th Leonardo Dinner?
+<select name="required-1210attend">
+    <option>Yes.</option>
+    <option>No.</option>
+</select>
+<br>If yes, what is your meal preference?
+<select name="required-mealpref">
+    <option>Chicken</option>
+    <option>Fish</option>
+    <option>Vegetarian</option>
+</select>
+
+<p>
+Additional notes (eg. guest information, special dietary restrictions)<br>
+<textarea name="notes" rows=4 cols=50></textarea><br>
+
+<p><input type="submit" value="Request reservation"> <input type="reset" value="Start over">
+
+<INPUT TYPE="hidden" NAME="success" VALUE="http://web.mit.edu/tbp/www/dinners/reservationresp.html">
+</form>
+</body>
+</html>
