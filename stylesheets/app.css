@@ -339,21 +339,45 @@ ul.tabs-content h3 {
   text-align: right;
   bottom: 10%;
   right: 10%;
-  width: 260px;
+  min-width: 260px;
 }
 
-.header .announcement .date {
+.left-announcement {
+  background: black;
+  color: white;
+  display: block;
+  font-family: "Nexa Bold", Helvetica, sans-serif;
+  opacity: 0.84;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  bottom: 10%;
+  left: 10%;
+  min-width: 260px;
+}
+
+.left-announcement .date, .left-announcement .text {
+  text-align: left;
+}
+.header .announcement .date, .header .left-announcement .date {
   font-size: x-large;
 }
 
-.header .announcement .text {
-  font-size: 1.8em;
-  margin-top: 25px;
+.header .announcement .text, .header .left-announcement .text {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1.5em;
+  margin-top: 15px;
 }
 
-.header .announcement .text em {
+.header .announcement .text em, .text em a, .header .left-announcement .text em, .text em a {
   color: #b40132;
   font-style: normal;
+}
+
+.header .announcement .date em, .header .left-announcement .date em {
+  color: white;
+  font-style: normal;
+  font-size: 0.7em;
 }
 
 #home {
@@ -373,7 +397,24 @@ ul.tabs-content h3 {
   position: absolute;
   top: 0;
 }
-
+#alt-home-2 {
+  background: url('../images/header-3.png') 0 0 no-repeat; min-height: 354px;
+  background-size: cover;
+  height: 354px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+#alt-home-3 {
+  background: url('../images/header-4.png') 0 0 no-repeat; min-height: 354px;
+  background-size: cover;
+  height: 354px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
 #blurb {
   background: url('../images/furley_bg.png') 0 0 repeat;
   background-size: cover;

@@ -7,9 +7,21 @@
     <div id='featured'>
       <div id='home'></div>
       <div id='alt-home-1'>
-        <div class='announcement'>
-          <div class='date'>2/17/2013</div>
-          <div class='text'>CONGRATS TO<br><em>60</em> NEW MEMBERS</div>
+        <div class='announcement medium-announcement'>
+          <div class='date'>3/14/2013<br><em>6-7PM, RM. 56-114</em></div>
+          <div class='text'><em><a href='/tbp/www/davincidinners.shtml#upcomingdinners'>'My love for RC Flying'</a></em><br>Da Vinci Dinner with Prof. Dan Frey</div>
+        </div>
+      </div>
+      <div id='alt-home-2'>
+        <div class='left-announcement'>
+          <div class='date'>3/16/2013</div>
+          <div class='text'>Philanthropic Fellowship Application <em><a href='/tbp/www/fellowships.shtml'>due</a></em></div>
+        </div>
+      </div>
+      <div id='alt-home-3'>
+        <div class='announcement long-announcement'>
+          <div class='date'>TO MEMBERS:</div>
+          <div class='text'>Suggesting a social event by emailing <em><a href='mailto:tbp-exec@mit.edu'>exec</a></em></div>
         </div>
       </div>
     </div>

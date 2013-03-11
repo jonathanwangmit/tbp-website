@@ -8,12 +8,12 @@
     </div>
     <div class='row content'>
       <dl class="tabs">
-        <dd class="active"><a href="#tab1">Philanthropic</a></dd>
-        <dd><a href="#tab2">Service/Engineering</a></dd>
-        <dd><a href="#tab3">Past Winners</a></dd>
+        <dd class="active"><a href="#philanthropic">Philanthropic</a></dd>
+        <dd><a href="#serviceengineering">Service/Engineering</a></dd>
+        <dd><a href="#pastwinners">Past Winners</a></dd>
       </dl>
       <ul class="tabs-content">
-        <li class='active' id="tab1Tab">
+        <li class='active' id="philanthropicTab">
           <!-- PHILANTHROPIC FELLOWSHIPS -->
           <h2>Philanthropic Fellowships</h2>
           <p class='first text'>This year, Tau Beta Pi will also be awarding Philanthropic Fellowships, aimed towards recognized MIT student groups that are seeking to <em>increase involvement and raise awareness</em> about their volunteering activities. The sponsored philanthropies may be based in the U.S. or abroad, and there are no restrictions regarding the type of volunteering activities proposed by the student group.</p>
@@ -26,13 +26,13 @@ All application materials must be submitted electronically to <a href='mailto:tb
           <!-- DOWNLOAD BUTTON -->
           <a href='includes/fellowships/PhilanthropicFellowshipAppSpring2013.pdf' target='new' class='button normal download'>Download Application<span class='right-arrow'></span></a>
         </li>
-        <li id="tab2Tab">
+        <li id="serviceengineeringTab">
           <!-- SERVICE AND ENGINEERING FELLOWSHIP-->
           <!-- BLURB IN p tags -->
           <h2>Service and Engineering Fellowships</h2>
           <p class='text first'>TBP's Fellowship Program is for MIT undergraduates seeking to pursue a <em>service engineering project</em> during this coming summer. The purpose of this program is to support students who seek to apply their <em>engineering and technological understanding</em> to better society, both domestic and abroad. Successful fellows should be prepared to guide a student-led project that can leave behind lasting, sustainable benefits for a community. The work may be arranged with non-governmental or inter-governmental organizations and other community-conscious groups. Students of all disciplines are welcomed to apply. This year, we are seeking to award up to <em>5 fellows</em> with <em>US$2000 to US$5000</em> each.</p>
         </li>
-        <li id="tab3Tab">
+        <li id="pastwinnersTab">
           <!-- LIST OF PAST WINNERS -->
           <h2>Past Winners</h2>
           <!--#include virtual="includes/fellowships/winners/2013IAP.htm"-->
