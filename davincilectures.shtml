@@ -19,40 +19,29 @@
         </li>
         <li id="upcominglecturesTab">
           <h2>Upcoming Da Vinci Lectures</h2>
-          <p class='first text'><h3>My love for RC Flying with Prof. Dan Frey</h3><hr></p>
-          <p class='text'><b>Thursday, March. 14th from 6PM - 7PM in Room 56-114</b></p>
-          <p class='text'>Dinner will be provided</p>
-          <p class='text'>Please let us know if you will be attending: <a target='new' href='http://tinyurl.com/TBPFrey'>RSVP</a></p>
+          <p class='first text'><h3>My love for RC Flying with Dan Frey - March 14, 2013</h3><hr></p>
+          <p class='text'>Please let us know if you will be attending by RVSPing <a target='new' href='http://tinyurl.com/TBPFrey'>here</a></p>
+          <p class='text'><img src='/tbp/www/davinciposters/danfrey.png' /></p>
         </li>
         <li id="pastlecturesTab">
           <h2>Past Da Vinci Lectures</h2>
-          <h3>2013 Lectures</h3>
-          <hr>
-          <table class="twelve">
-            <thead>
-              <tr>
-                <th>Title</th>
-                <th>Professor</th>
-                <th>Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Why do Young People get Arthritis and What can We Do?</td>
-                <td>Prof. Alan Grodzinsky</td>
-                <td>3/5/2013</td>
-              </tr>
-              <tr>
-                <td>The Past and Future of Tissue Engineering</td>
-                <td>Prof. Myron Spector</td>
-                <td>2/19/2013</td>
-              </tr>
-            </tbody>
-          </table>
+          <!-- Each file is a separate table which represents a semester.
+               Semesters are listed in reverse chronological order;
+               Lectures for each semester are listed in chronological order.
+               To add a lecture, follow the instructions in template.htm -->
+
+          <!--#include virtual="includes/davincilectures/spring2013lectures.htm"-->
+          <!--#include virtual="includes/davincilectures/spring2012lectures.htm"-->
+          <!--#include virtual="includes/davincilectures/fall2012lectures.htm"-->
+          <!--#include virtual="includes/davincilectures/spring2011lectures.htm"-->
         </li>
       </ul>
     </div>
   </div>
 
 <!--#include virtual="includes/footer.htm"-->
+
+<!-- MUST GO AFTER EVERYTHING BUT BEFORE bottom.htm -->
+<!--#include virtual="includes/davincilectures/lectureposters.htm"-->
+
 <!--#include virtual="includes/bottom.htm"-->
