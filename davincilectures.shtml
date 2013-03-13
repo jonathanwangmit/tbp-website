@@ -31,8 +31,8 @@
                To add a lecture, follow the instructions in template.htm -->
 
           <!--#include virtual="includes/davincilectures/spring2013lectures.htm"-->
-          <!--#include virtual="includes/davincilectures/spring2012lectures.htm"-->
           <!--#include virtual="includes/davincilectures/fall2012lectures.htm"-->
+          <!--#include virtual="includes/davincilectures/spring2012lectures.htm"-->
           <!--#include virtual="includes/davincilectures/spring2011lectures.htm"-->
         </li>
       </ul>
