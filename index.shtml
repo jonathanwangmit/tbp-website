@@ -7,21 +7,23 @@
     <div id='featured'>
       <div id='home'></div>
       <div id='alt-home-1'>
-        <div class='announcement medium-announcement'>
-          <div class='date'>3/14/2013<br><em>6-7PM, RM. 56-114</em></div>
-          <div class='text'><em><a href='/tbp/www/davincidinners.shtml#upcomingdinners'>'My love for RC Flying'</a></em><br>Da Vinci Lecture with Prof. Dan Frey</div>
+        <div class='left-announcement medium-announcement'>
+          <div class='date'><a href='http://web.mit.edu/tbp/www/davincilectures.shtml#upcominglectures' target='new'>DA VINCI LECTURE</a></div>
+          <div class='text'><em>Prof. Franz Hover</em><br />April 29, 2013<br />Rm. 4-213 5:15 PM</div>
         </div>
       </div>
-      <div id='alt-home-2'>
-        <div class='left-announcement'>
-          <div class='date'>3/16/2013</div>
-          <div class='text'>Philanthropic Fellowship Application <em><a href='/tbp/www/fellowships.shtml'>due</a></em></div>
+     <!--
+<div id='alt-home-2'>
+        <div class='announcement'>
+          <div class='date'>4/22/2013</div>
+          <div class='text'>Service/Engineering Fellowship Application <em><a href='/tbp/www/fellowships.shtml'>due</a></em></div>
         </div>
       </div>
+-->
       <div id='alt-home-3'>
-        <div class='announcement long-announcement'>
+        <div class='left-announcement long-announcement'>
           <div class='date'>TO MEMBERS:</div>
-          <div class='text'>Suggesting a social event by emailing <em><a href='mailto:tbp-exec@mit.edu'>exec</a></em></div>
+          <div class='text'>Suggest a social event by emailing <em><a href='mailto:tbp-exec@mit.edu'>exec</a></em></div>
         </div>
       </div>
     </div>

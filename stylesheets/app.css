@@ -313,6 +313,20 @@ ul.tabs-content .first {
   margin-top: 45px;
 }
 
+ul.tabs-content .section {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+ul.tabs-content .section li {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul.tabs-content h2.section-header {
+  margin-top: 40px;
+}
+
 ul.tabs-content hr {
   margin-top: 5px;
 }
@@ -694,8 +708,18 @@ h1.about em {
   background-color: #5da423 !important;
   border-color: #457a1a !important;
 }
+
 /* -----------------------------------------
    Contact Page
+----------------------------------------- */
+.calendar {
+  width: 100%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+/* -----------------------------------------
+   Media Queries
 ----------------------------------------- */
 
 @media screen and (max-width:1155px) { 

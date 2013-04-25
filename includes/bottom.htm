@@ -19,6 +19,7 @@
       pathname = pathname.substr(0, pathname.length - 6);
       $('nav dd').removeClass('active');
       var menu_item = $('a[name=' + pathname+']').attr('rel');
+      console.log(menu_item);
       $('dd[name=' + menu_item +']').addClass('active');
       $('.error').hide();
     });
