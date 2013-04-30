@@ -19,14 +19,15 @@
           <h2>Service and Engineering Fellowships</h2>
           <p class='text first'>TBP's Fellowship Program is for MIT undergraduates seeking to pursue a <em>service engineering project</em> during this coming summer. The purpose of this program is to support students who seek to apply their <em>engineering and technological understanding</em> to better society, both domestic and abroad. Successful fellows should be prepared to guide a student-led project that can leave behind lasting, sustainable benefits for a community. The work may be arranged with non-governmental or inter-governmental organizations and other community-conscious groups. Students of all disciplines are welcomed to apply.
           </p>
+          <h5>View the recipients of the Summer 2013 Service and Engineering Fellowships <a href='http://web.mit.edu/tbp/www/fellowships.shtml#pastwinners' target='new'>here</a></h5>
           <p class='text'>
-          This summer, we are seeking to award up to five fellowships with US $5000 each. Applications for these fellowships are due on <em>April 22, 2013 at 11:59 PM</em>. Interviews will be conducted between <em>April 27th - 28th, 2013</em>. Final decisions will be made by <em>May 1</em>. All application materials must be submitted electronically to <a href="mailto:tbp-fellowships@mit.edu">tbp-fellowships@mit.edu</a>.
+          This summer, we are seeking to award up to five fellowships with US $5000 each. Applications for these fellowships were due on <em>April 22, 2013 at 11:59 PM</em>. Interviews were conducted between <em>April 27th - 28th, 2013</em>. Final decisions were made by <em>May 1</em>. All application materials must be submitted electronically to <a href="mailto:tbp-fellowships@mit.edu">tbp-fellowships@mit.edu</a>.
           <p class='text'>
             For further information, please contact <a href='mailto:tbp-fellowships@mit.edu'>tbp-fellowships@mit.edu</a>
           </p>
           </p>
           <!-- DOWNLOAD BUTTON -->
-          <a href='includes/fellowships/ServiceEngineeringSummer2013.pdf' target='new' class='button normal download'>Download Application<span class='right-arrow'></span></a>
+          <!-- <a href='includes/fellowships/ServiceEngineeringSummer2013.pdf' target='new' class='button normal download'>Download Application<span class='right-arrow'></span></a> -->
         </li>
         <li id="philanthropicTab">
           <!-- PHILANTHROPIC FELLOWSHIPS -->
@@ -45,6 +46,7 @@ All application materials must be submitted electronically to <a href='mailto:tb
         <li id="pastwinnersTab">
           <!-- LIST OF PAST WINNERS -->
           <h2>Past Winners</h2>
+          <!--#include virtual="includes/fellowships/winners/2013SummerEngineering.htm"-->
           <!--#include virtual="includes/fellowships/winners/2013SpringPhilanthropic.htm"-->
           <!--#include virtual="includes/fellowships/winners/2013IAP.htm"-->
           <!--#include virtual="includes/fellowships/winners/2012Summer.htm"-->

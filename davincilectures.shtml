@@ -19,8 +19,11 @@
         </li>
         <li id="upcominglecturesTab">
           <h2>Upcoming Da Vinci Lectures</h2>
-          <p class='first text'>Please let us know if you will be attending: <a href='http://tinyurl.com/TBPHover'>http://tinyurl.com/TBPHover</a></p>
+          <p class='first text'>Stay tuned for our next lecture!</p>
+          <!--
+<p class='first text'>Please let us know if you will be attending: <a href='http://tinyurl.com/TBPHover'>http://tinyurl.com/TBPHover</a></p>
           <p class='text'><img src='davinciposters/franzhover.png' /></p>
+-->
         </li>
         <li id="pastlecturesTab">
           <h2>Past Da Vinci Lectures</h2>
