@@ -11,6 +11,7 @@
         <dd class="active"><a href="#serviceengineering">Service/Engineering</a></dd>
         <dd><a href="#philanthropic">Philanthropic</a></dd>
         <dd><a href="#pastwinners">Past Winners</a></dd>
+        <dd><a href="#faq">Reimbursement FAQ</a></dd>
       </dl>
       <ul class="tabs-content">
         <li class='active' id="serviceengineeringTab">
@@ -54,6 +55,25 @@ All application materials must be submitted electronically to <a href='mailto:tb
           <!--#include virtual="includes/fellowships/winners/2010IAP.htm"-->
           <!--#include virtual="includes/fellowships/winners/2009.htm"-->
           <!--#include virtual="includes/fellowships/winners/2008.htm"-->
+        </li>
+        <li id="faqTab">
+          <!-- REIMBURSEMENT FAQ -->
+          <h2>Reimbursement FAQ</h2>
+          <h5 class='first'>Can I get MIT to front my airfare/transportation costs?</h5>
+          <p class='text'>Yes. The steps to doing so can be found at http://studentlife.mit.edu/sao/finance/travel . First fill out the Student Travel Form and send it to me. We will then use that to get you in touch with a travel agent who will help you book your tickets. You then fill out a liability waiver, register the trip, have a quick 20 minute meeting with the SAO on safety, and you're good to go! Each step is pretty short so it's not as lengthy as it seems.</p>
+          
+          <h5>I've already bought my airfare/other travel expenses, how do I get it reimbursed?</h5>
+          <p class='text'>MIT travel reimbursements are done through the website Concur. Once you've filled that out and before submitting, send me an email with your receipts. We will need to approve your request, and then you can submit your form on Concur.</p>
+          
+          <h5>I can't get receipts where I'm going.</h5>
+          <p class='text'>Keep a travel log with your costs - when you got it, what it was, how much it cost and if possible, where you got it. When you get back, use Concur and itemize these expenses. <a href='mailto:hjayaram@MIT.EDU'>E-mail</a> the treasurer this itemized list before submitting so he/she can approve your request. Only do this if you are going somewhere that doesn't have receipts - otherwise you need receipts to have your expenses approved.</p>
+          
+          <h5>How do I get reimbursed for other purchases?</h5>
+          <p class='text'>Things that are not travel related and have receipts can be reimbursed by RFPs. If you've never filled out an RFP before, you can just <a href='mailto:hjayaram@MIT.EDU'>email</a> the treasurer the receipts and he/she will fill out the form for you.</p>
+          
+          <h5>I will have a hard time fronting the money needed.</h5>
+          <p class='text'>Let the <a href='mailto:hjayaram@MIT.EDU'>treasurer</a> know if you will have a hard time fronting the money and then waiting for a reimbursement. To have the transportation covered, see the first question. Aside from that, we can figure something out.</p>
+          </p>
         </li>
       </ul>
     </div>
