@@ -6,12 +6,14 @@
   <div class='header' id='homepage'>
     <div id='featured'>
       <div id='home'></div>
-      <div id='alt-home-1'>
+      <!--
+<div id='alt-home-1'>
         <div class='left-announcement medium-announcement'>
           <div class='date'><a href='http://web.mit.edu/tbp/www/davincilectures.shtml#upcominglectures' target='new'>DA VINCI LECTURE</a></div>
           <div class='text'><em>Dr. Nilma Dominique</em><br />May 7, 2013<br />Rm. 4-231 5:15 PM</div>
         </div>
       </div>
+-->
      <div id='alt-home-2'>
         <div class='announcement'>
           <div class='date'>5/1/2013</div>
@@ -23,6 +25,12 @@
         <div class='left-announcement long-announcement'>
           <div class='date'>TO MEMBERS:</div>
           <div class='text'>Suggest a social event by emailing <em><a href='mailto:tbp-exec@mit.edu'>exec</a></em></div>
+        </div>
+      </div>
+      <div id='alt-home-4'>
+        <div class='announcement'>
+          <div class='date'>5/29/2013</div>
+          <div class='text'>CONGRATULATIONS TO<br /><em>42</em> NEW MEMBERS</div>
         </div>
       </div>
     </div>

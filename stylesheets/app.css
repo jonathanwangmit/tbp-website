@@ -429,6 +429,20 @@ ul.tabs-content h3 {
   position: absolute;
   top: 0;
 }
+#alt-home-4 {
+  background: url('../images/header-5.jpg') 0 55% no-repeat; min-height: 354px;
+  background-size: cover;
+  height: 354px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#alt-home-4 .announcement {
+  opacity: 0.7;
+}
+
 #blurb {
   background: url('../images/furley_bg.png') 0 0 repeat;
   background-size: cover;
