@@ -19,11 +19,9 @@
         </li>
         <li id="upcominglecturesTab">
           <h2>Upcoming Da Vinci Lectures</h2>
-          <p class='first text'>Stay tuned for our next lecture!</p>
-          <!--
-<p class='first text'>Please let us know if you will be attending: <a href='http://tinyurl.com/TBPBrazil'>http://tinyurl.com/TBPBrazil</a></p>
-          <p class='text'><img src='davinciposters/nilmadominique.png' /></p>
--->
+          <!-- <p class='first text'>Stay tuned for our next lecture!</p> -->
+          <p class='first text'>Please let us know if you will be attending: <a href='http://tinyurl.com/MITingenious'>tinyurl.com/MITingenious</a></p>
+          <p class='first text'><img src='davinciposters/jasonfagone.png' /></p>
         </li>
         <li id="pastlecturesTab">
           <h2>Past Da Vinci Lectures</h2>
@@ -31,7 +29,8 @@
                Semesters are listed in reverse chronological order;
                Lectures for each semester are listed in chronological order.
                To add a lecture, follow the instructions in template.htm -->
-
+          
+          <!--#include virtual="includes/davincilectures/fall2013lectures.htm"-->
           <!--#include virtual="includes/davincilectures/spring2013lectures.htm"-->
           <!--#include virtual="includes/davincilectures/fall2012lectures.htm"-->
           <!--#include virtual="includes/davincilectures/spring2012lectures.htm"-->

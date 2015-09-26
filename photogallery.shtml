@@ -14,7 +14,16 @@
             <li>
               <ul data-clearing>
                 <li class='clearing-feature photo-gallery'>
-                  <span class='photo-caption' style='font-size: 13px;'>THELONIOUS MONKFISH/IMPROV 5/4</span>
+                  <span class='photo-caption'>RED SOX GREEN TEAM 9/22/2013</span>
+                  <img src="images/photos/redsox_9_22_13/photo2.JPG">
+                </li>
+                <li><img src="images/photos/redsox_9_22_13/photo3.JPG"></li>
+              </ul>
+            </li>
+            <li>
+              <ul data-clearing>
+                <li class='clearing-feature photo-gallery'>
+                  <span class='photo-caption' style='font-size: 13px;'>THELONIOUS MONKFISH/IMPROV 5/4/2013</span>
                   <img src="images/photos/thelonious_improv_5_4/IMG_0789.JPG">
                 </li>
                 <li><img src="images/photos/thelonious_improv_5_4/IMG_0753.JPG"></li>
@@ -84,7 +93,7 @@
             <li>
               <ul data-clearing>
                 <li class='clearing-feature photo-gallery'>
-                  <span class='photo-caption'>DA VINCI LECTURE 4/29</span>
+                  <span class='photo-caption'>DA VINCI LECTURE 4/29/2013</span>
                   <img src="images/photos/davincilecture_hover_4_29/DSC_5444.JPG">
                 </li>
                 <li><img src="images/photos/davincilecture_hover_4_29/DSC_5426.JPG"></li>
@@ -145,7 +154,7 @@
             <li>
               <ul data-clearing>
                 <li class='clearing-feature photo-gallery'>
-                  <span class='photo-caption'>EVOO SOCIAL 4/26</span>
+                  <span class='photo-caption'>EVOO SOCIAL 4/26/2013</span>
                   <img src="images/photos/evoosocial_4_26/P1130889.JPG">
                 </li>
                 <li><img src="images/photos/evoosocial_4_26/P1130870.JPG"></li>
@@ -199,7 +208,7 @@
             <li>
               <ul data-clearing>
                 <li class='clearing-feature photo-gallery'>
-                  <span class='photo-caption'>ASANA SOCIAL 4/25</span>
+                  <span class='photo-caption'>ASANA SOCIAL 4/25/2013</span>
                   <img src="images/photos/asana_4_25/IMG_0832.JPG">
                 </li>
                 <li><img src="images/photos/asana_4_25/IMG_0829.JPG"></li>
@@ -210,7 +219,7 @@
             <li>
               <ul data-clearing>
                 <li class='clearing-feature photo-gallery'>
-                  <span class='photo-caption'>LEGAL SEAFOODS SOCIAL 3/26</span>
+                  <span class='photo-caption'>LEGAL SEAFOODS SOCIAL 3/26/2013</span>
                   <img src="images/photos/legalseafoods_3_26/DSC00772.JPG">
                 </li>
                 <li><img src="images/photos/legalseafoods_3_26/DSC00765.JPG"></li>

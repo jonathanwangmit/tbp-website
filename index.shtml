@@ -8,17 +8,19 @@
       <div id='home'></div>
       <!--
 <div id='alt-home-1'>
-        <div class='left-announcement medium-announcement'>
-          <div class='date'><a href='http://web.mit.edu/tbp/www/davincilectures.shtml#upcominglectures' target='new'>DA VINCI LECTURE</a></div>
-          <div class='text'><em>Dr. Nilma Dominique</em><br />May 7, 2013<br />Rm. 4-231 5:15 PM</div>
+        <div class='left-announcement'>
+          <div class='date'>3/12/2014</div>
+          <div class='text'>TBP SUMMER '14 FELLOWSHIPS INFO SESSION</a></div>
+          <div class='text'>RM. 3-333, WED 3/19 @ 7PM</div>
+          <div class='text'>Food will be provided</div>
         </div>
       </div>
 -->
-     <div id='alt-home-2'>
+     <div id='alt-home-1'>
         <div class='announcement'>
-          <div class='date'>5/1/2013</div>
+          <div class='date'>4/18/2014</div>
           <div class='text'>CONGRATULATIONS TO THE <a href='http://web.mit.edu/tbp/www/fellowships.shtml#pastwinners'>WINNERS</a></div>
-          <div class='text'>of the Service/Engineering Fellowships</div>
+          <div class='text'>of the 2014 Summer Service/Engineering Fellowships</div>
         </div>
       </div>
       <div id='alt-home-3'>
@@ -27,12 +29,14 @@
           <div class='text'>Suggest a social event by emailing <em><a href='mailto:tbp-exec@mit.edu'>exec</a></em></div>
         </div>
       </div>
-      <div id='alt-home-4'>
+      <!--
+<div id='alt-home-4'>
         <div class='announcement'>
           <div class='date'>5/29/2013</div>
           <div class='text'>CONGRATULATIONS TO<br /><em>42</em> NEW MEMBERS</div>
         </div>
       </div>
+-->
     </div>
     <div id='blurb'>
       <div class='rule'></div>

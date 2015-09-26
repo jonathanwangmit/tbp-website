@@ -1,0 +1,35 @@
+<!--This is the template for each semester's worth of lectures.
+    This code produces a table for each semester. Each file consists
+    of one semester of lectures. The files are to be included in
+    davincilectures.shtml in reverse chronological order.
+    The lectures themselves in each file are to be listed in
+    chronological order.
+    
+    Each lecture usually comes with a poster. If it does come with
+    a poster,  it is displayed in a popup via Reveal, a Foundation 3
+    javascript library. To utilize this nifty popup, add the <a> tag
+    like in the example template below to the name of the lecture.
+    IMAGENAME is the name of the poster image (convention is
+    firstnamelastname of professor). You then use this same IMAGENAME
+    in includes/davincilectures/lectureposters.htm - the instructions
+    are in that file.
+-->
+
+<h3>Fall 2013 Lectures</h3>
+<hr>
+<table class="twelve">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Professor</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#" data-reveal-id="peterweise">Germany: More Than Bratwurst and Beer?</a></td>
+      <td>Professor Peter Weise</td>
+      <td>11/12/2013</td>
+    </tr>
+  </tbody>
+</table>

@@ -7,13 +7,17 @@
       <h1 class='dark-header'><em>ELIGIBLES REQUIREMENTS</em></h1>
     </div>
     <div class='row content'>
-      <dl class="tabs">
+      <!--
+<dl class="tabs">
         <dd class="active"><a href="#requirements">Requirements</a></dd>
         <dd><a href="#personalessay">Upload Personal Essay</a></dd>
       </dl>
+-->
       <ul class="tabs-content">
         <li class="active" id="requirementsTab">
-          <p class='text'>If you have been invited to become a TBP eligible, the following requirements must be fulfilled:</p>
+          <p class='text'>For questions about TBP eligibility please email <a href='mailto:tbp-eligibles-chair@mit.edu' target='new'>tbp-eligibles-chair@mit.edu</a></p>
+          <!--
+<p class='text'>If you have been invited to become a TBP eligible, the following requirements must be fulfilled:</p>
           <p class='text'>
             <ol>
               <li><em><b>Personal Integrity</b></em><br /> 
@@ -48,6 +52,7 @@
           </p>
           <iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.us/form/31207396092150" frameborder="0" style="width:400px; height:465px; border:none; margin-left:0; text-align:left;" scrolling="no"></iframe>
 <script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
+-->
         </li>
       </ul>
     </div>
