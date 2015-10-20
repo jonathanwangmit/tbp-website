@@ -70,17 +70,17 @@ Students of all disciplines are welcome.</p>
 <script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;case "collapseErrorPage":if (iframe.clientHeight > window.innerHeight) {iframe.style.height = window.innerHeight + "px";}break;case "reloadPage":window.location.reload();break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
 
           <h3>Requirements</h3>
-          <p>The TBP Service & Engineering Fellowship Program has the following requirements:</p>
+          <p>In addition to those mentioned in the application, the TBP Service & Engineering Fellowship Program has the following requirements:</p>
           <ul>
-            <li>All aspects of the project requiring funding must be completed by the end of IAP 2015</li>
+            <li>All aspects of the project requiring funding must be completed by the end of IAP 2016.</li>
             <li>Each fellow must submit a 3-5 page written report that includes multiple pictures of his/her project upon completion.</li>
             <li>Each fellow must be prepared to present his/her accomplishments at the Tau Beta Pi Fellowship Forum (at MIT, date to be announced).</li>
             <li>Relevant receipts/proofs of payment totaling the awarded sum must be submitted within 2 weeks of project completion.</li>
             <li>TBP reserves the right to reclaim all awarded funds if the above requirements are not fulfilled.</li>
          </ul>
          </p>
-         <p>Interviews are conducted on <em>April 26, 2015</em>.</p>
-         <p>All application material must be submitted electronically via the form above, and all recommendations must be emailed to <a href='mailto:tbp-fellowships@mit.edu' target='new'>tbp-fellowships@mit.edu</a>.</p>
+         <p>Interviews are conducted on <em>November 11, 2015</em>.</p>
+         <p>The application must be submitted electronically via the form <a href="https://goo.gl/2ioJiD">here</a>, and all resumes and recommendations must be emailed to <a href='mailto:tbp-fellowships@mit.edu' target='new'>tbp-fellowships@mit.edu</a>.</p>
          <!-- <p>For further information, please contact <a href='mailto:tbp-fellowships@mit.edu' target='new'>tbp-fellowships@mit.edu</a></p> -->
         </li>
         <li id="pastwinnersTab">
