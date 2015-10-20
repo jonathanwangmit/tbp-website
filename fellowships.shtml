@@ -66,9 +66,6 @@ Students of all disciplines are welcome.</p>
             </ul>
           </p>
 
-          <iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.us/form/50959072033151" frameborder="0" style="width:100%; border:none; overflow-y: scroll;" scrolling="auto"></iframe>
-<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;case "collapseErrorPage":if (iframe.clientHeight > window.innerHeight) {iframe.style.height = window.innerHeight + "px";}break;case "reloadPage":window.location.reload();break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
-
           <h3>Requirements</h3>
           <p>In addition to those mentioned in the application, the TBP Service & Engineering Fellowship Program has the following requirements:</p>
           <ul>
