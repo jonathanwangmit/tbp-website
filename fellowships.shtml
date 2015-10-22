@@ -8,9 +8,8 @@
     </div>
     <div class='row content'>
       <dl class="tabs">
-        <dd class="active"><a href="#serviceengineering">Service/Engineering</a></dd>
+        <dd class="active"><a href="#serviceengineering">General Information</a></dd>
         <dd><a href="#application">Application</a></dd>
-        <dd><a href="#philanthropic">Philanthropic</a></dd>
         <dd><a href="#pastwinners">Past Winners</a></dd>
         <dd><a href="#faq">Reimbursement FAQ</a></dd>
       </dl>
@@ -20,11 +19,11 @@
           <!-- BLURB IN p tags -->
           <h2>Service and Engineering Fellowships</h2>
           <p class='first text'>
-            TBP is looking to sponsor students wishing to pursue a service engineering project this coming Summer. The purpose of this program is to support students who seek to apply their engineering and technological understanding to better society, both domestic and abroad. Successful fellows should be prepared to guide a student-led project that can leave behind lasting, sustainable benefits for a community. The work may be arranged with non-governmental or inter-governmental organizations and other community-conscious groups. Students of all disciplines are welcome.</p>
-        <h5><a href='#application' target='new'>Apply now</a> for the Summer 2015 Service and Engineering Fellowships</h5>
+           TBP is looking to sponsor students wishing to pursue a service engineering project during IAP 2016. The purpose of this program is to support students who seek to apply their engineering and technological understanding to better society, both domestic and abroad. Successful fellows should be prepared to guide a student-led project that can leave behind lasting, sustainable benefits for a community. The work may be arranged with non-governmental or inter-governmental organizations and other community-conscious groups. Students of all disciplines are welcome.</p>
+        <h5><a href='#application' target='new'>Apply now</a> for the IAP 2016 Service and Engineering Fellowships</h5>
         <!-- <h5>Applications for the Summer 2014 Service and Engineering Fellowships are now closed. View the winners <a href='#pastwinners'>here</a></h5> -->
           <p class='text'>
-          This Summer, we are looking to award as many as five fellowships of up to $5000 each. Applications are due on <em>Thursday April 23rd, 2015</em> at midnight. Invited applicants will be interviewed on April 26th. 
+          This winter, we are looking to award as many as five fellowships of up to $3000 each. Applications are due on <em>Friday, November 6th </em> at midnight. Invited applicants will be interviewed on <em>Wednesday, November 11th</em>. 
           <p class='text'>
             For further information, please contact <a href='mailto:tbp-fellowships@mit.edu'>tbp-fellowships@mit.edu</a>
           </p>
@@ -32,40 +31,24 @@
           <!-- DOWNLOAD BUTTON -->
           <!-- <a href='includes/fellowships/ServiceEngineeringSummer2013.pdf' target='new' class='button normal download'>Download Application<span class='right-arrow'></span></a> -->
         </li>
-        <li id="philanthropicTab">
-          <!-- PHILANTHROPIC FELLOWSHIPS -->
-          <h2>Philanthropic Fellowships</h2>
-          <p class='first text'>This year, Tau Beta Pi will also be awarding Philanthropic Fellowships, aimed towards recognized MIT student groups that are seeking to <em>increase involvement and raise awareness</em> about their volunteering activities. The sponsored philanthropies may be based in the U.S. or abroad, and there are no restrictions regarding the type of volunteering activities proposed by the student group.</p>
-          <p class='text'>
-          <h5>View the recipients of the Spring 2013 Philanthropic Fellowships <a href='http://web.mit.edu/tbp/www/fellowships.shtml#pastwinners' target='blank'>here</a></h5>
-          </p>
-          <p class='text'>
-Applications for these fellowships were due on <em>March 16th 2013</em>. This spring, we are seeking to award up to 5 fellowships with up to US $3000 each. Interviews were conducted between March 16th - 19th, 2013. Final decisions were made on <em>March 25th</em>.
-All application materials must be submitted electronically to <a href='mailto:tbp-fellowships@mit.edu'>tbp-fellowships@mit.edu</a></p>
-          <p class='text'>
-            For further information, please contact <a href='mailto:tbp-fellowships@mit.edu'>tbp-fellowships@mit.edu</a>
-          </p>
-        </li>
         <li id="applicationTab">
           <h2>Service/Engineering Summer 2015 Fellowship Application</h2>
           <p class='first text'>
-            TBP is looking to sponsor students wishing to pursue a service engineering project this coming summer. 
-The purpose of this program is to support students who seek to apply their engineering and technological 
-understanding to better society, both domestic and abroad. Successful fellows should be prepared to guide a 
-student-led project that can leave behind lasting, sustainable benefits for a community. The work may be 
-arranged with non-governmental or inter-governmental organizations and other community-conscious groups. 
-Students of all disciplines are welcome.</p>
+            TBP is looking to sponsor students wishing to pursue a service engineering project over IAP 2016. The purpose of this program is to support students who seek to apply their engineering and technological understanding to better society, both domestic and abroad. Successful fellows should be prepared to guide a student-led project that can leave behind lasting, sustainable benefits for a community. The work may be arranged with non-governmental or inter-governmental organizations and other community-conscious groups. Students of all disciplines are welcome.</p>
           <h3>Application</h3>
           <!-- <p>Applications for these fellowships are now closed.</p>  -->
           
-<p>Please fill out the following application in order to be considered. In addition to the application, please <a href='mailto:tbp-fellowships@mit.edu'>send us</a> the following items:
+  <p>Please fill out the following application in order to be considered. In addition to the application, please <a href='mailto:tbp-fellowships@mit.edu'>send us</a> the following items:
             <ul>
+              <li>Project proposal: Describe community needs, project aims, proposed timeline, technical approaches, anticipated impacts, and personal motivations and qualifications. Maximum 2000 words. </li>
+              <li>Proposed budget, including any other sources of support (applied or confirmed)</li>
+              <li>Resumes of all applicants (if applying as a group, otherwise just individual)</li>
               <li>Letter of recommendation from an MIT faculty member who is familiar with both the applicant’s character 
   and project and can attest to his/her integrity and ability.</li>
               <li>Letter of interest from any organization concerned (if applicable).</li>
             </ul>
           </p>
-
+           <p>The deadline for the application is <em>Friday, November 6, 2015 at midnight</em>.</p>
           <h3>Requirements</h3>
           <p>In addition to those mentioned in the application, the TBP Service & Engineering Fellowship Program has the following requirements:</p>
           <ul>
@@ -110,7 +93,7 @@ Students of all disciplines are welcome.</p>
           <p class='text'>Things that are not travel related and have receipts can be reimbursed by RFPs. If you've never filled out an RFP before, you can just <a href='mailto:hjayaram@MIT.EDU'>email</a> the treasurer the receipts and he/she will fill out the form for you.</p>
           
           <h5>I will have a hard time fronting the money needed.</h5>
-          <p class='text'>Let the <a href='mailto:hjayaram@MIT.EDU'>treasurer</a> know if you will have a hard time fronting the money and then waiting for a reimbursement. To have the transportation covered, see the first question. Aside from that, we can figure something out.</p>
+          <p class='text'>Let the <a href='mailto:hjayaram@MIT.EDU'>treasurer</a> know if you will have a hard time fronting the money and then waiting for a reimbursement. To have the transportation covered, see the first question. Aside from that, we can figure something out. TBP also recommends contacting the PSC and applying for their fellowships, which are due on Friday, October 23rd at noon. </p>
           </p>
         </li>
       </ul>
