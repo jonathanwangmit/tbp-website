@@ -596,6 +596,11 @@ h1.about em {
   margin-top: 3px;
 }
 
+#officer-list img {
+    width: 180px;
+    height: 180px;
+}
+
 /* -----------------------------------------
    Career Fair Page
 ----------------------------------------- */
