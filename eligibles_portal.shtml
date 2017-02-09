@@ -14,7 +14,7 @@
       <ul class="tabs-content" id="eligibles-portal-tabs-content">
         <li class="active" id="requirementsTab">
           
-          <table class="eligibles-portal-table">
+          <table class="eligibles-requirement-table" id="eligible-view-table">
             <tr>
               <th>Complete</th>
               <th>Requirement</th>

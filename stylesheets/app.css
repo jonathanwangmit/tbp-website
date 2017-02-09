@@ -677,7 +677,7 @@ h1.about em {
   padding: 0;
 }
 
-.eligibles-portal-table {
+.eligibles-requirement-table {
   width: 100%;
 }
 
@@ -694,6 +694,10 @@ h1.about em {
 
 #eligibles-admin-save-changes {
   float:right;
+}
+
+.eligible-hide {
+  display: none;
 }
 
 
