@@ -1,0 +1,27 @@
+<!--#include virtual="includes/header.htm"-->
+<!--#include virtual="includes/nav.htm"-->
+
+  <!-- FACULTY ADVISOR -->
+  <div class='main'>
+    <div class='row'>
+      <h1 class='dark-header'><em>ELIGIBLES REQUIREMENTS</em></h1>
+    </div>
+    <div class='row content'>
+      <ul class="tabs-content">
+        <li class="active" id="requirementsTab">
+          
+          <p class='text'>To be eligible for membership in TBP, you must be a Junior or Senior with a certain GPA requirement. If you meet this requirement, TBP officers will reach out to you about how to become a full member of TBP.</p>
+
+          <p class='text'>For questions about TBP eligibility please email <a href='mailto:tbp-eligibles-chair@mit.edu' target='new'>tbp-eligibles-chair@mit.edu</a></p>
+
+          <p class='text'>If you are a current eligible looking to check the status of your requirments, you can look <a href='./eligibles_portal.shtml'>here</a>.</p>
+
+          <p class='text'>(Admins click <a href='./eligibles_portal_admin.shtml'>here</a> for now.)</p>
+     
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<!--#include virtual="includes/footer.htm"-->
+<!--#include virtual="includes/bottom.htm"-->

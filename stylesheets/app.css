@@ -666,6 +666,38 @@ h1.about em {
 }
 
 /* -----------------------------------------
+   Eligibles Portal Page
+----------------------------------------- */
+.eligibles_check_or_x {
+  width: 30px;
+  height: 30px;
+}
+
+#eligibles-portal-tabs-content {
+  padding: 0;
+}
+
+.eligibles-portal-table {
+  width: 100%;
+}
+
+.eligibles-admin-portal-select-eligible {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.select-eligible-admin {
+  max-width: 200px;
+  margin-right: 30px;
+}
+
+#eligibles-admin-save-changes {
+  float:right;
+}
+
+
+/* -----------------------------------------
    Contact Page
 ----------------------------------------- */
 #contact {
