@@ -4,8 +4,10 @@
   <!-- FACULTY ADVISOR -->
   <div class='main'>
     <div class='row'>
-      <h1 class='dark-header'><em>ELIGIBLES ADMIN PORTAL</em></h1>
+      <h1 class='dark-header'><em>ELIGIBLES ADMIN DASHBOARD</em></h1>
     </div>
+
+    <p class="row" >Click <a href='./eligibles_admin_dashboard.shtml'>here</a> to return to the Admin Dashboard.</p>
 
     <p class="row" >Choose an eligiability period and eligible kerberos to modify that Eligible’s requirment checklist.</p>
 
@@ -27,6 +29,13 @@
     </div>
 
 
+    <div class="eligible-hide row" id="eligibles-admin-change-eligible-password">
+      <p>Change this eligible's password:</p>
+      <input type='text' placeholder='New Password'>
+      <input type='text' placeholder='Confirm New Password'>
+      <button >Update Password</button>
+    </div>
+
     <div class='row content eligible-hide' id="eligibles-admin-table">
       <ul class="tabs-content" id="eligibles-portal-tabs-content">
         <li class="active" id="requirementsTab">
@@ -35,6 +44,23 @@
           </table>
         </li>
       </ul>
+    </div>
+
+
+    <div class="eligible-hide row" id="eligibles-status">
+      <p>Change this eligible's status:</p>
+      <label for="radio_1">
+        <input type="radio" name="radio" id="radio_1" />
+        In progress
+      </label>
+      <label for="radio_2">
+        <input type="radio" name="radio" id="radio_2" />
+        Complete
+      </label>
+      <label for="radio_3">
+        <input type="radio" name="radio" id="radio_3" />
+        Inactive
+      </label>
     </div>
 
     <div class="eligible-hide row" id="eligibles-admin-buttons">

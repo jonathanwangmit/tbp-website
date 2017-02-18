@@ -1,0 +1,69 @@
+<!--#include virtual="includes/header.htm"-->
+<!--#include virtual="includes/nav.htm"-->
+
+  <!-- FACULTY ADVISOR -->
+  <div class='main'>
+    <div class='row'>
+      <h1 class='dark-header'><em>ELIGIBLES ADMIN DASHBOARD</em></h1>
+    </div>
+
+    <h2 class="row" >Add Eligibility Period:</h2>
+    <div class="row">
+      <select class="select-eligible-admin" >
+        <option>Fall</option>
+        <option>Spring</option>
+      </select>
+
+      <select class="select-eligible-admin" >
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+      </select>
+
+      <button id="admin-select-eligible-button">Create Eligibility Period</button>
+
+    </div>
+
+    <h2 class="row" >Add Eligibiles:</h2>
+    <div class='row'>
+      <p>Please select an eligibility period that the eligibles are a in. The select a file to upload eligible information into the system. The file must be a csv file, where the columns are: eligible name, eligible kerberos. After choosing a file, hit Upload to load the eligibles from the csv file into the system to the set eligibility period.</p>
+      <select class="select-eligible-admin">
+        <option>Fall 2016</option>
+        <option>Spring 2016</option>
+        <option>Fall 2015</option>
+        <option>Spring 2015</option>
+      </select>
+
+      <input type='file'/>
+      
+      <button>Upload</button>
+    </div>
+
+    <h2 class="row" >Export Eligibile Information:</h2>
+    <div class='row'>
+      <p>Select the eligibility period for which you would like to export all eligible information. Once you hit Export, eligible information will be downloaded in the form of a csv file, where the columns are: name, kerberos, [requirement, complete, comments]+.</p>
+      <select class="select-eligible-admin">
+        <option>Fall 2016</option>
+        <option>Spring 2016</option>
+        <option>Fall 2015</option>
+        <option>Spring 2015</option>
+      </select>
+      
+      <button>Export</button>
+    </div>
+
+    <h2 class="row" >Edit Eligibile Information:</h2>
+    <p class="row" >Click <a href='./eligibles_portal_admin.shtml'>here</a> to edit a specific eligible's information.</p>
+
+<!--#include virtual="includes/footer.htm"-->
+<script src="javascripts/jquery.js"></script>
+<script src="javascripts/eligibles_portal_admin.js"></script>
+<!--#include virtual="includes/bottom.htm"-->

@@ -54,10 +54,15 @@ $(document).ready(function() {
 		if (!success) {
 			$('#eligibles-admin-table').addClass("eligible-hide");
 			$('#eligibles-admin-buttons').addClass("eligible-hide");
+			$('#eligibles-status').addClass("eligible-hide");
+			$('#eligibles-admin-change-eligible-password').addClass("eligible-hide");
 			alert("There is no such eligible on record for that eligibility period.");
 		} else {
 			$('#eligibles-admin-table').removeClass("eligible-hide");
 			$('#eligibles-admin-buttons').removeClass("eligible-hide");
+			$('#eligibles-status').removeClass("eligible-hide");
+			$('#eligibles-admin-change-eligible-password').removeClass("eligible-hide");
+			
 		}
 	});
 
